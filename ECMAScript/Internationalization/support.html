@@ -1,0 +1,994 @@
+﻿<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+			<title>ECMAScript Internationalization API Locales</title>
+			<link rel="stylesheet" href="../../styles/core-styles.css" />
+		</head>
+	<body> 
+		<header>
+			<h1>Open Web Reference</h1>
+		</header>
+		
+		<h1>ECMAScript Internationalization API Locales</h1> 
+		
+		<table>
+			<caption>Supported ISO639-1 language codes</caption>
+			<thead>
+				<tr>
+					<th>ISO639-1</th>
+					<th>Blink</th>
+					<th>IE11/Win 8</th>
+					<th>IE11/Win 7</th>
+					<th>Firefox Nightly*</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>aa</td>
+					<td class="unsupported">No</td>
+					<td colspan="2" class="unsupported">No</td>
+					<td class="unsupported">No</td>
+				</tr><tr><td>ab</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>af</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ak</td><td class="supported">Yes</td><td
+colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>am</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>an</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ar</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>as</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>av</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ay</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>az</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ba</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>be</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>bg</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>bh</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>bi</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>bm</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>bn</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>bo</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>br</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>bs</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ca</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ce</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ch</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>co</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>cr</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>cs</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>cu</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>cv</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>cy</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>da</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>de</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>dv</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>dz</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ee</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>el</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>eo</td><td class="supported">Yes</td><td
+colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>es</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>et</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>eu</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fa</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ff</td><td class="unsupported">No</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fi</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fj</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>fo</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fr</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fy</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ga</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>gd</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>gl</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>gn</td><td class="unsupported">No</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>gu</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>gv</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ha</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>he</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>hi</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ho</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>hr</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ht</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>hu</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>hy</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>hz</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ia</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>id</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ie</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ig</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ii</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ik</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>io</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>is</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>it</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>iu</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ja</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>jv</td><td class="unsupported">No</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ka</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>kg</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ki</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>kj</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>kk</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>kl</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>km</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>kn</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ko</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>kr</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ks</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ku</td><td class="unsupported">No</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>kv</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>kw</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ky</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>la</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>lb</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>lg</td><td class="supported">Yes</td><td
+colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>li</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ln</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>lo</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>lt</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>lv</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>mg</td><td class="supported">Yes</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>mh</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>mi</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>mk</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ml</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>mn</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>mo</td><td class="supported">Yes</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>mr</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ms</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>mt</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>my</td><td class="unsupported">No</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>na</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>nd</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ne</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ng</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>nl</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>nn</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>no</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>nr</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>nv</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ny</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>oc</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>oj</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>om</td><td class="supported">Yes</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>or</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>os</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>pa</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>pi</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>pl</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ps</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>pt</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>qu</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>rm</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>rn</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ro</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ru</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>rw</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>sa</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sc</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>sd</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>se</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sg</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>sh</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>si</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>sk</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>sl</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>sm</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>sn</td><td class="supported">Yes</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>so</td><td class="supported">Yes</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>sq</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>sr</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ss</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>st</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>su</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>sv</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>sw</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ta</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>te</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>tg</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>th</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ti</td><td class="supported">Yes</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>tk</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>tl</td><td class="supported">Yes</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>tn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>to</td><td class="supported">Yes</td><td
+colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>tr</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ts</td><td class="unsupported">No</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>tt</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>tw</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ty</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ug</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>uk</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ur</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>uz</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ve</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>vi</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>vo</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>wa</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>wo</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>xh</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>yi</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>yo</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>za</td><td class="unsupported">No</td><td
+colspan="2" class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>zh</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>zu</td><td class="supported">Yes</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr></tbody></table>
+
+<table><caption>Supported ISO639-2 language codes with no ISO639-1
+equivalent</caption> <thead><tr><th>ISO639-2</th><th>Blink</th><th>IE11/Win
+8</th><th>IE11/Win 7</th><th>Firefox
+Nightly*</th></tr></thead><tbody><tr><td>arn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>bas</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>bem</td><td class="supported">Yes</td><td
+class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>chr</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>dsb</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>dua</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>ewo</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>fil</td><td class="supported">Yes</td><td
+class="supported" colspan="2">Yes</td><td
+class="supported">Yes</td></tr><tr><td>gsw</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="supported">Yes</td></tr><tr><td>haw</td><td class="supported">Yes</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>hsb</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>kab</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>kam</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>kok</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>luo</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>mas</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>moh</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>nqo</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>nso</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>nyn</td><td
+class="supported">Yes</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>sah</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sma</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>smj</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>smn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sms</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>syr</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>vai</td><td
+class="unsupported">No</td><td class="unsupported" colspan="2">No</td><td
+class="supported">Yes</td></tr><tr><td>zgh</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td class="unsupported">No</td></tr></tbody></table>
+<p><strong>Note:</strong> IE11 supports the <code>fil</code> code for Filipino,
+but not the two letter code <code>tl</code> (Tagalog). As Blink supports both,
+it is best to use the former.</p>
+
+<table><caption>Supported ISO639-1 language codes with ISO3166-1 country code or
+UN M.49 region code</caption> <thead><tr><th>ISO
+3166-1</th><th>Blink</th><th>IE11/Win 8</th><th>IE11/Win 7</th><th>Firefox
+Nightly*</th> </tr></thead><tbody><tr><td>en-AG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-BB</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-BS</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-BW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-BZ</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-CA</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-CM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-DM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-FJ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-GM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-GH</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-GD</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-GY</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-IN</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-IE</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-JM</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-KE</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-KI</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-LS</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-LR</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-MW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-MT</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-MH</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-MU</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-FM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-NA</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-NZ</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-NG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-PG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-PH</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-PK</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-PW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-SG</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-KN</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-LC</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-VC</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-WS</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-SC</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-SL</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-SG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-SB</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-ZA</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-SS</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-SZ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-TZ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-TO</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-TT</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-ZW</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-UG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-VU</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-ZM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-ZW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-AU</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-GB</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-US</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>en-AS</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-BM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-VG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-KY</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-GI</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-GU</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-GG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-HK</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-IM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-JE</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>en-029</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>de-AT</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>de-BE</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>de-CH</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>de-LU</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>de-LI</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>nl-BE</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>nl-AW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>nl-CW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>nl-SX</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>nl-SR</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>sv-FI</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-AR</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-BO</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-CL</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-CO</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-CR</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-CU</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>es-DO</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-EC</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-SV</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-GQ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>es-GT</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-HN</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-MX</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-NI</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-PA</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-PY</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-PE</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-PR</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-UY</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-VE</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>es-419</td><td
+class="supported">Yes</td><td class="unsupported">No</td><td
+class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>pt-BR</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>pt-AO</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>pt-CV</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>pt-TL</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>pt-GW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>pt-MZ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>pt-ST</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>pt-MO</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>it-CH</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>it-SM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-BE</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fr-BJ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-BF</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-BI</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-CA</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fr-CM</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-CF</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-PF</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-GP</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-MQ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-YT</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-NC</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-RE</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-BL</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-GA</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-GN</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-HT</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-LU</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fr-MG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-MC</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fr-ML</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-MU</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-NE</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-CG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-RW</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-SN</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-SC</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-CH</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>fr-TG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>fr-VU</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>el-CY</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ro-MD</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ru-BY</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ru-KZ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ru-KG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>hr-BA</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>zh-CN</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>zh-TW</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>zh-SG</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>zh-HK</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>zh-MO</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ms-SG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ms-BN</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ms-MY</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-DZ</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-BH</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-TD</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-KM</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-DJ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-EG</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-ER</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-IQ</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-PS</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-IL</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-JO</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-KW</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-LB</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-LY</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-MR</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-MA</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-OM</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-QA</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-SA</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-SO</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-SD</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ar-SY</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-TN</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-AE</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ar-YE</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>bn-IN</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>bn-BD</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ta-IN</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ta-SG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ta-LK</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ta-MY</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ln-CD</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ln-CG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>sw-KE</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>sw-TZ</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>sw-UG</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ti-ET</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>ti-ER</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td class="supported">Yes</td></tr></tbody></table>
+<p><strong>Note:</strong> This table excludes locales where the country code and
+language code are the same, and thus redundant, such as <code>es-ES</code>,
+<code>fr-FR</code>, etc. This list is not exhaustive; it only includes country
+and language codes that I have tested. It is possible that there are more
+supported.</p>
+
+<table>
+	<caption>Supported language and script code combinations</caption>
+<thead><tr><th>Language/Script</th><th>Blink</th><th>IE11/Win
+8</th><th>IE11/Win 7</th><th>Firefox Nightly*</th>
+
+</tr></thead><tbody><tr><td>az-Cyrl</td><td class="unsupported">No</td><td
+colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>az-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ba-Cyrl</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>bo-Tibt</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>br-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>bs-Cyrl</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>bs-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>co-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ff-Latn</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>gd-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ha-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>ig-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ii-Yiii</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>iu-Cans</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>iu-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>jv-Latn</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>kk-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ks-Arab</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ku-Arab</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>ky-Cyrl</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>mi-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>mn-Cyrl</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>mn-Mong</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>oc-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>pa-Arab</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>pa-Guru</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sa-Deva</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sd-Arab</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>se-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sn-Latn</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>sr-Cyrl</td><td
+class="supported">Yes*</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>sr-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>tg-Cyrl</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>tk-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>tt-Cyrl</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>ug-Arab</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>uz-Arab</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>uz-Cyrl</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>uz-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>wo-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>yo-Latn</td><td
+class="unsupported">No</td><td class="supported" colspan="2">Yes</td><td
+class="unsupported">No</td></tr><tr><td>zh-Hans</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>zh-Hant</td><td
+class="supported">Yes</td><td colspan="2" class="supported">Yes</td><td
+class="supported">Yes</td></tr><tr><td>arn-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>chr-Cher</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>fil-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>haw-Latn</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td
+class="unsupported">No</td></tr><tr><td>moh-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sah-Cyrl</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sma-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>smj-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>smn-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>sms-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>syr-Syrc</td><td
+class="unsupported">No</td><td colspan="2" class="supported">Yes</td><td
+class="unsupported">No</td></tr><tr><td>vai-Latn</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>vai-Vaii</td><td
+class="unsupported">No</td><td colspan="2" class="unsupported">No</td><td
+class="supported">Yes</td></tr><tr><td>zgh-Tfng</td><td
+class="unsupported">No</td><td class="supported">Yes</td><td
+class="unsupported">No</td><td class="unsupported">No</td></tr></tbody></table>

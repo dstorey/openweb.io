@@ -1,0 +1,159 @@
+﻿html {
+	font: 10px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+body {
+	font-size: 1.2rem;
+	width: 60rem;
+	margin: 0 7.2rem;
+}
+
+header {
+	margin-bottom: 4rem;
+	padding: 2rem 0;
+}
+header h1 {
+	background: url("../images/logo.svg") no-repeat;
+	background-size: 24%;
+	text-indent: 140px;
+	padding: 1rem 0;
+	text-transform: uppercase;
+}	
+
+h1, h2 { 
+	color: black;
+	font-size: 1.8rem;
+	margin-bottom: 0;
+}
+h2, p, li  { font-size: 1.4rem; }
+h3 {
+	font-size: 1.4rem;
+}
+
+a {
+	color: #18a4db;
+	text-decoration: Nne;
+	background-color: #FAFAFA;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px solid;
+}
+
+table { 
+	border-collapse: collapse;
+	margin: 2.4rem 0;
+	width: 60rem;
+}
+caption {
+	font-weight: bold;
+	text-align: left;
+	font-size: 1.5em;
+	margin: 0.83em 0;
+}
+th, td {
+	border: 1px solid #ddd;
+	padding: 0.9rem;
+	line-height: 1.7rem;
+	vertical-align: middle;
+	min-width: 2.7em;
+
+ }
+ 
+ .half-width {
+	padding: 0;
+	min-width: 1.35em;
+	font-size: 90%;
+ }
+ .half-width.prefixed {
+	border-right-color: #D1ECBB;
+}
+ 
+ th {
+	background-color: #f0f0f0;
+	color: #444;
+ }
+ tbody th {
+	text-align: left;
+ }
+ 
+ tbody > tr:hover {
+	outline: 2px solid skyblue;
+ }
+ 
+ tr > td:first-of-type {
+	min-width: 150px;
+ }
+ tr > td:nth-child(n+3) {
+	text-align: center;
+	padding: 0;
+ }
+ .supported {
+	background-color: #DFFCC7;	
+ }
+ .prefixed {
+	background-color: #EDFFDF;
+ }
+ .prefixed span, .alternative span {
+	font-size: 80%;
+	vertical-align: 8%;
+ }
+ .alternative {
+	background-color: #FFFCDA;
+} 
+ .partial {
+	background-color: #FCFCC7
+ }
+ .partial.prefixed {
+	background-color: #FEFFDF;
+ }
+ .unsupported {
+	background-color: #fce8e8;
+ }
+ .obsolete {
+	background-color: #FCFCFC;
+ }
+
+.browsers th { 
+	padding: 1rem 0;
+	vertical-align: bottom;
+}
+.browsers span {
+	-ms-writing-mode: tb-rl; /* old syntax. IE */
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	writing-mode: vertical-rl; /* new syntax */
+}
+
+code { white-space: nowrap; }
+
+ul + h2 { 
+	display: run-in;
+	margin-right: .75em;
+}
+ul + h2::after { content: ":"; }
+
+ul { padding: 0; }
+			
+#toc a {
+	background-color: transparent;
+}
+#toc ul, ol.specs {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+@media (min-width: 1000px) {
+	#toc { 
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 100%;
+		overflow: auto;
+		padding: 2rem 5rem;
+		background-color: #fafafa;
+		border-left: 1px solid #ddd;
+	}
+}
