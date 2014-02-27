@@ -21,13 +21,12 @@ header h1 {
 
 h1, h2 { 
 	color: black;
-	font-size: 1.8rem;
+	font-size: 2.1rem;
 	margin-bottom: 0;
 }
-h2, p, li  { font-size: 1.4rem; }
-h3 {
-	font-size: 1.4rem;
-}
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+p, li  { font-size: 1.4rem; }
 
 a {
 	color: #18a4db;
@@ -134,7 +133,10 @@ ul + h2 {
 ul + h2::after { content: ":"; }
 
 ul { padding: 0; }
-			
+
+#toc h2 {
+	font-size: 1.4rem;
+}
 #toc a {
 	background-color: transparent;
 }
