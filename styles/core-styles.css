@@ -144,12 +144,15 @@ ul { padding: 0; }
 }
 
 @media (min-width: 1000px) {
+	body {
+		margin-left: 34rem;
+	}
 	#toc { 
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		position: fixed;
 		top: 0;
-		right: 0;
+		left: 0;
 		height: 100%;
 		overflow: auto;
 		padding: 2rem 5rem;
