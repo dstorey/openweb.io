@@ -145,6 +145,10 @@ ul { padding: 0; }
 	padding-left: 0;
 }
 
+.spec-link { 
+	font-size: 80%; 
+}
+
 @media (min-width: 1000px) {
 	body {
 		margin-left: 34rem;
