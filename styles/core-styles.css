@@ -134,6 +134,8 @@ ul + h2::after { content: ":"; }
 
 ul { padding: 0; }
 
+ul  ul { padding-left: 2rem; }
+
 #toc h2 {
 	font-size: 1.4rem;
 }
