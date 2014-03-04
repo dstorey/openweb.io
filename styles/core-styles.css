@@ -147,6 +147,13 @@ ul  ul { padding-left: 2rem; }
 	padding-left: 0;
 }
 
+#toc .alphabetic li {
+	display: inline-block;
+	width: 2rem;
+	height: 3rem;
+	text-align: center;
+}
+
 .spec-link { 
 	font-size: 80%; 
 }
@@ -166,5 +173,10 @@ ul  ul { padding-left: 2rem; }
 		padding: 2rem 5rem;
 		background-color: #fafafa;
 		border-left: 1px solid #ddd;
+	}
+	
+	#toc .alphabetic {
+		margin-top: 13rem;
+		width: 14rem;
 	}
 }
