@@ -126,12 +126,6 @@ th, td {
 
 code { white-space: nowrap; }
 
-ul + h2 { 
-	display: run-in;
-	margin-right: .75em;
-}
-ul + h2::after { content: ":"; }
-
 ul { padding: 0; }
 
 ul  ul { padding-left: 2rem; }
