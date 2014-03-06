@@ -152,6 +152,14 @@ ul  ul { padding-left: 2rem; }
 	font-size: 80%; 
 }
 
+body > footer {
+	margin: 4rem 0;
+}
+
+body > footer p {
+	font-size: 150%;
+}
+
 @media (min-width: 1000px) {
 	body {
 		margin-left: 34rem;
@@ -172,5 +180,6 @@ ul  ul { padding-left: 2rem; }
 	
 	#toc .alphabetic {
 		width: 14rem;
+		margin-bottom: 2rem;
 	}
 }
