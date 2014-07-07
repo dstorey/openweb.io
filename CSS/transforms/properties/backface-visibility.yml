@@ -1,0 +1,12 @@
+﻿---
+name: backface-visibility
+
+introduced: transforms-1
+
+specs:
+	- transforms-1
+
+values:
+	visible:
+	hidden:
+---

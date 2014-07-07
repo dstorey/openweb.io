@@ -1,0 +1,17 @@
+﻿---
+name: transform-origin
+
+introduced: transforms-1
+
+specs:
+	- transforms-1
+
+values:
+	left:
+	center:
+	right:
+	top:
+	bottom:
+	<length>:
+	<percentage>:
+---

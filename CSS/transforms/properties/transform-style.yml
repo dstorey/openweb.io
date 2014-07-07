@@ -1,0 +1,12 @@
+﻿---
+name: transform-style
+
+introduced: transforms-1
+
+specs:
+	- transforms-1
+
+values:
+	flat:
+	preserve-3d:
+---
