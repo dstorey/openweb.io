@@ -1,0 +1,18 @@
+﻿---
+name: hyphenate-limit-zone
+
+introduced: CSS4
+
+support:
+	ie: [10]
+
+specs:
+	- CSS4
+
+values:
+	<percentage>:
+	<length>:
+
+prefixes:
+	- The `-ms-` prefix is needed for Internet Explorer 10 and above.
+---

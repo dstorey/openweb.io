@@ -1,0 +1,25 @@
+﻿---
+name: word-wrap
+
+introduced: CSS3
+
+support:
+	firefox: 3.5
+	safari: 2
+	opera: 10.5
+	chrome: 1
+	ie: 5.5
+
+specs:
+	- CSS3
+
+values:
+	normal:
+	break-word:
+
+prefixes:
+	- Internet Explorer optionally supports the -ms- prefix since version 8.
+
+notes:
+	– For legacy reasons, `word-wrap` is an alternative name for `overflow-wrapz. It has wider browser support than the latter. It is no longer defined in CSS Text Level 4, but still remains accepted.
+---

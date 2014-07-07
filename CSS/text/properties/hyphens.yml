@@ -1,0 +1,33 @@
+﻿---
+name: hyphens
+
+introduced: CSS3
+
+support:
+	firefox: 6
+	safari: 5.1
+	opera: 15
+	chrome: 13
+	ie: 10
+
+specs:
+	- CSS4
+	- CSS3
+
+values:
+	none:
+	manual:
+	auto:
+		support:
+			firefox: 6
+			safari: 5.1
+			ie: 10
+
+prefixes:
+	- The `-webkit-` prefix is needed for Safari 5.1 and above (iOS version 4.2 and above), Chrome 13 and above, and Opera 15 and above.
+	- The `-moz-` prefix is needed for Firefox 6 and above.
+	- The `-ms-` prefix is needed for Internet Explorer 10 and above.
+
+notes:
+	- Chrome and, by extension, Opera, do not ship with hyphenation dictionaries, so while the `auto` value is parsed, no hyphenation is used when laying out the text. As such the `auto` value is listed as unsupported in those browsers. If you detect for support, it will report as supported.
+---

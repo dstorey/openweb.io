@@ -1,0 +1,18 @@
+﻿---
+name: hyphenate-limit-chars
+
+introduced: CSS4
+
+support:
+	ie: [10]
+
+specs:
+	- CSS4
+
+values:
+	auto:
+	<integer>:
+
+prefixes:
+	 - The `-ms-` prefix is needed for Internet Explorer 10 and above.
+---

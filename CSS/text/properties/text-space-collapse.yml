@@ -1,0 +1,17 @@
+﻿---
+name: text-space-collapse
+
+introduced: CSS4
+
+specs:
+	- CSS4
+
+values:
+	collapse:
+	preserve:
+	preserve-breaks:
+	discard:
+	trim-inner:
+	consume-before:
+	consume-after:
+---

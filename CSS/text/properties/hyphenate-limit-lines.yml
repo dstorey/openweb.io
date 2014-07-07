@@ -1,0 +1,22 @@
+﻿---
+name: hyphenate-limit-lines
+
+introduced: CSS4
+
+support:
+	safari: [6]
+	opera: [15]
+	chrome: [16]
+	ie: [10]
+
+specs:
+	- CSS4
+
+values:
+	no-limit:
+	<integer>:
+
+prefixes:
+	- The -webkit- prefix is needed for Safari, Chrome, and Opera.
+	- The `-ms-` prefix is needed for Internet Explorer 10 and above.
+---

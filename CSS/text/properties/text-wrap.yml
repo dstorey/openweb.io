@@ -1,0 +1,13 @@
+﻿---
+name: text-wrap
+
+introduced: CSS4
+
+specs:
+	- CSS4
+
+values:
+	normal:
+	none:
+	avoid:
+---
