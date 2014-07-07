@@ -1,0 +1,16 @@
+﻿---
+name: text-decoration-skip
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	none:
+	objects:
+	spaces:
+	ink:
+	edges:
+	box-decoration:
+---

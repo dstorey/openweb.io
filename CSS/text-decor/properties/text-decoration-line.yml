@@ -1,0 +1,19 @@
+﻿---
+name: text-decoration-line
+
+introduced: CSS3
+
+support:
+	firefox: 6
+
+specs:
+	- CSS3
+
+values:
+	none:
+	underline:
+	overline:
+	line-through:
+	blink:
+		support: none
+---

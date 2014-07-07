@@ -1,0 +1,31 @@
+﻿---
+name: text-shadow
+
+introduced: CSS3
+
+support:
+	firefox: 3.5
+	safari: 1.1
+	opera: 9.5
+	chrome: 2
+	ie: 10
+
+specs:
+	- CSS3
+
+values:
+	none:
+	2–3 <length>s:
+	<color>:
+	multiple text shadows:
+		support:
+			firefox: 3.5
+			safari: 4
+			opera: 9.5
+			chrome: 2
+			ie: 10
+
+notes:
+	- Opera originally supported multiple shadows with a back-to-front order. This was the order specified in the abandoned CSS2 specification. This was fixed in Opera 10.5.
+	- Internet Explorer supports an additional (and optional) 4th <length> representing the spread value. This matches the <length> values in `box-shadow`. However, this is currently not included in the spec.
+---

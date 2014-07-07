@@ -1,0 +1,20 @@
+﻿---
+name: text-emphasis
+
+introduced: CSS3
+
+support:
+	safari: [5.1]
+	opera: [15]
+	chrome: [10]
+	
+specs:
+	- CSS3
+
+values:
+	<text-emphasis-style>:
+	<text-emphasis-color>:
+
+prefixes:
+	- The `-webkit-` prefix is needed for Safari, Chrome, and Opera.
+---

@@ -1,0 +1,27 @@
+﻿---
+name: text-emphasis-style
+
+introduced: CSS3
+
+support:
+	safari: [5.1]
+	opera: [15]
+	chrome: [10]
+	
+specs:
+	- CSS3
+
+values:
+	none:
+	filled:
+	open:
+	dot:
+	circle:
+	double-circle:
+	triangle:
+	sesame:
+	<string>:
+
+prefixes:
+	- The `-webkit-` prefix is needed for Safari, Chrome, and Opera.
+---

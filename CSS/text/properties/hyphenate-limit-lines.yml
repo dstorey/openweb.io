@@ -17,6 +17,6 @@ values:
 	<integer>:
 
 prefixes:
-	- The -webkit- prefix is needed for Safari, Chrome, and Opera.
+	- The `-webkit-` prefix is needed for Safari, Chrome, and Opera.
 	- The `-ms-` prefix is needed for Internet Explorer 10 and above.
 ---
