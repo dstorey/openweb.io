@@ -1,0 +1,12 @@
+﻿---
+name: wrap-through
+
+introduced: exclusions-1
+
+specs:
+	- exclusions-1
+
+values:
+	none:
+	wrap:
+---

@@ -1,0 +1,17 @@
+﻿---
+name: wrap-flow
+
+introduced: exclusions-1
+
+specs:
+	- exclusions-1
+
+values:
+	auto:
+	both:
+	start:
+	end:
+	minimum:
+	maximum:
+	clear:
+---

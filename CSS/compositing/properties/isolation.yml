@@ -1,0 +1,12 @@
+﻿---
+name: isolation
+
+introduced: compositing-1
+
+specs:
+	- compositing-1
+
+values:
+	auto:
+	isolate:
+---

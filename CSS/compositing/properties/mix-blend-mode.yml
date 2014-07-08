@@ -1,0 +1,11 @@
+﻿---
+name: mix-blend-mode
+
+introduced: compositing-1
+
+specs:
+	- compositing-1
+
+values:
+	<blend-mode>:
+---

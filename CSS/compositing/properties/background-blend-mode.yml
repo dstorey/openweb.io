@@ -1,0 +1,11 @@
+﻿---
+name: background-blend-mode
+
+introduced: compositing-1
+
+specs:
+	- compositing-1
+
+values:
+	List of <blend-mode>s:
+---
