@@ -1,0 +1,23 @@
+﻿---
+name: transition-delay
+
+introduced: transitions-1
+
+support:
+	firefox: [4, 16]
+	safari: [3.1, 6.1]
+	opera: [11.6, 12.1]
+	chrome: [1, 26]
+	ie: 10
+
+specs:
+	- transitions-1
+
+values:
+	<time>:
+
+prefixes:
+	- Firefox 4–15 require the `-moz-` prefix.
+	- Safari 3.1–6 and Chrome 1–25 require the `-webkit-` prefix.
+	- Opera 11.6 requires the `-o-` prefix.
+---
