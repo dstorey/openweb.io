@@ -1,0 +1,12 @@
+﻿---
+name: color-adjust
+
+introduced: CSS4
+
+specs:
+	- CSS4
+
+values:
+	economy:
+	exact:
+---

@@ -1,0 +1,30 @@
+﻿---
+name: animation
+
+introduced: animations-1
+
+support:
+	firefox: [5, 16]
+	safari: [4]
+	opera: [12]
+	chrome: [≤ 4]
+	ie: 10
+
+specs:
+	- animations-1
+
+values:
+	<animation-name>:
+	<animation-duration>:
+	<animation-timing-function>:
+	<animation-delay>:
+	<animation-iteration-count>:
+	<animation-direction>:
+	<animation-fill-mode>:
+	<animation-play-state>:
+
+prefixes:
+	- Firefox 5–15 require the `-moz-` prefix.
+	- Safari 4+, Chrome, and Opera 15+ require the `-webkit-` prefix.
+	- Opera 12 requires the `-o-` prefix. This was dropped in Opera 12.1
+---

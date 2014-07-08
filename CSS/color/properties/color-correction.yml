@@ -1,0 +1,12 @@
+﻿---
+name: color-correction
+
+introduced: CSS4
+
+specs:
+	- CSS4
+
+values:
+	auto:
+	sRGB:
+---

@@ -1,0 +1,22 @@
+﻿---
+name: opacity
+
+introduced: CSS3
+
+support:
+	firefox: 1
+	safari: 1
+	opera: 3.5
+	chrome: 1
+	ie: 3
+
+specs:
+	- CSS4
+	- CSS3
+
+values:
+	<alpha-value>:
+
+notes:
+	- In CSS Color Level 3 <alpha-value> is a real <number> between 0 and 1. CSS Color Level 4 extends this to also accept a <percentage> between 0% and 100%. See the <alpha-value> data type for support information.
+---

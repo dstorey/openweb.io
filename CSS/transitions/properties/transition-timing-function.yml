@@ -20,26 +20,26 @@ values:
 	ease-out:
 	ease-in-out:
 	step-start:
-	    support:
-	        firefox: [4, 16]
-	        safari: [5.1, 6.1]
-	        opera: 12.1
-	        chrome: [8, 26]
-	        ie: 10
+		support:
+			firefox: [4, 16]
+			safari: [5.1, 6.1]
+			opera: 12.1
+			chrome: [8, 26]
+			ie: 10
 	step-end:
-	    support:
-	        firefox: [4, 16]
-	        safari: [5.1, 6.1]
-	        opera: 12.1
-	        chrome: [8, 26]
-	        ie: 10
+		support:
+			firefox: [4, 16]
+			safari: [5.1, 6.1]
+			opera: 12.1
+			chrome: [8, 26]
+			ie: 10
 	steps():
-	    support:
-	        firefox: [4, 16]
-	        safari: [5.1, 6.1]
-	        opera: 12.1
-	        chrome: [8, 26]
-	        ie: 10
+		support:
+			firefox: [4, 16]
+			safari: [5.1, 6.1]
+			opera: 12.1
+			chrome: [8, 26]
+			ie: 10
 	cubic-bezier():
 
 prefixes:

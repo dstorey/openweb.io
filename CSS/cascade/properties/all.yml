@@ -1,0 +1,13 @@
+﻿---
+name: all
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	initial:
+	inherit:
+	unset:
+---
