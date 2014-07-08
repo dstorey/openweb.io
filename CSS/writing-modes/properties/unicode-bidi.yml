@@ -1,0 +1,44 @@
+﻿---
+name: unicode-bidi
+
+introduced: CSS2.1
+
+support:
+    firefox: 1
+	safari: 1.3
+	opera: 7.2
+	chrome: 1
+	ie: 5
+
+specs:
+	- CSS3
+	- CSS2.1
+
+values:
+	normal:
+	embed:
+	bidi-override:
+	isolate:
+	    support:
+	        firefox: [10]
+	        safari: [5.1]
+	        opera: [15]
+	        chrome: [16]
+	isolate-override:
+	        firefox: [17]
+	        safari: [6.1]
+	        opera: [15]
+	        chrome: [23]
+	plaintext:
+	        firefox: [10]
+	        safari: [6]
+	        opera: [15]
+	        chrome: [14]
+
+prefixes:
+    - Firefox requires the `-moz-` prefix on the *value* for `isolate`, `isolate-override`, and `plaintext`.
+    - Chrome, Safari, and Opera requires the `-webkit-` prefix on the *value* for `isolate`, `isolate-override`, and `plaintext`.
+
+notes:
+    - Chrome has been able to parse the [`plaintext`](https://bugs.webkit.org/show_bug.cgi?id=57457) and [`isolate`](https://bugs.webkit.org/show_bug.cgi?id=57181) values since [version 12](http://peter.sh/2011/04/free-flow-css-editing-in-web-inspector-bidi-sprint-and-nested-headers/). However, the functionality was not implemented until [Chrome 14](http://peter.sh/2011/07/webcl-prototype-a-new-xml-parser-and-the-web-audio-api-for-all/) and [Chrome 16](http://peter.sh/2011/09/chrome-16-revision-100000-and-isolated-unicode-bidi/) respectively. This means you will get a false positive when testing for support in Chrome 12 and 13 for the former, and 12–15 for the latter.
+---
