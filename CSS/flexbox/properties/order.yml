@@ -1,0 +1,25 @@
+﻿---
+name: order
+
+introduced: flexbox-1
+
+support:
+	firefox: 22
+	safari: [6.1]
+	opera: 12.1
+	chrome: [21, 29]
+	ie: 11
+
+specs:
+	- flexbox-1
+
+values:
+	<integer>:
+
+prefixes:
+	- Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix.
+
+notes:
+	- Older versions of Firefox, Safari, and Chrome support the `box-ordinal-group` property, with their relevant prefixes.
+	- IE 10 supports the `flex-order` property (with `-ms-` prefix) from the [22 March 2012](http://www.w3.org/TR/2012/WD-css3-flexbox-20120322/#flex-order) version of the specification.
+---

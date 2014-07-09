@@ -1,0 +1,12 @@
+﻿---
+name: flood-opacity
+
+introduced: filters-1
+
+specs:
+	- filters-1
+
+values:
+	<number>:
+	<percentage>:
+---

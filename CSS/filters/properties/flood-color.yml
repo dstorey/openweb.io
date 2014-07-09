@@ -1,0 +1,12 @@
+﻿---
+name: flood-color
+
+introduced: filters-1
+
+specs:
+	- filters-1
+
+values:
+	<color>:
+	<icccolor>:
+---

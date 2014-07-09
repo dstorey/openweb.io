@@ -1,0 +1,29 @@
+﻿---
+name: align-content
+
+introduced: flexbox-1
+
+support:
+	firefox: 22
+	safari: [6.1]
+	opera: 12.1
+	chrome: [21, 29]
+	ie: 11
+
+specs:
+	- flexbox-1
+
+values:
+	flex-start:
+	flex-end:
+	center:
+	space-around:
+	space-between:
+	stretch:
+
+prefixes:
+	- Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix.
+
+notes:
+	- IE 10 supports the `flex-line-pack` property, with the `-ms-` prefix from an older version of the spec. The `flex-start` and `flex-end` values did not include the `flex-` prefix. The `space-between` and `space-around` properties were named `justify` and `distribute` respectively. The other values are the same as for `align-content`.
+---

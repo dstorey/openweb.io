@@ -1,0 +1,17 @@
+﻿---
+name: min-height
+
+introduced: flexbox-1
+
+support:
+	ie: 10
+
+specs:
+	- flexbox-1
+
+values:
+	auto:
+
+notes:
+	- Opera supported the `auto` value in version 12.1x. It dropped support when switching to Blink in Opera 15.
+---

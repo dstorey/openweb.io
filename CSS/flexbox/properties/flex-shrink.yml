@@ -1,0 +1,21 @@
+﻿---
+name: flex-shrink
+
+introduced: flexbox-1
+
+support:
+	firefox: 22
+	safari: [6.1]
+	opera: 12.1
+	chrome: [21, 29]
+	ie: 11
+
+specs:
+	- flexbox-1
+
+values:
+	<number>:
+
+prefixes:
+	- Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix.
+---
