@@ -1,0 +1,15 @@
+﻿---
+name: font-language-override
+
+introduced: CSS3
+
+support:
+	firefox: 4
+
+specs:
+	- CSS3
+
+values:
+	normal:
+	<string>:
+---

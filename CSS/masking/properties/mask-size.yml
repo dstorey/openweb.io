@@ -1,0 +1,15 @@
+﻿---
+name: mask-size
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	<length>:
+	<percentage>:
+	auto:
+	cover:
+	contain:
+---

@@ -1,0 +1,31 @@
+﻿---
+name: font-variant-ligatures
+
+introduced: CSS3
+
+support:
+	firefox: 26
+	safari: 6
+	opera: 15
+	chrome: 18
+
+specs:
+	- CSS3
+
+values:
+	none:
+	    support: none
+	normal:
+	common-ligatures:
+	no-common-ligatures:
+	discretionary-ligatures:
+	no-discretionary-ligatures:
+	historical-ligatures:
+	no-historical-ligatures:
+	contextual:
+	    support:
+	        firefox: 26
+	no-contextual:
+	    support:
+	        firefox: 26
+---

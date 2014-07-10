@@ -1,0 +1,22 @@
+﻿---
+name: font-variant-numeric
+
+introduced: CSS3
+
+support:
+	firefox: 26
+
+specs:
+	- CSS3
+
+values:
+	normal:
+	lining-nums:
+	oldstyle-nums:
+	proportional-nums:
+	tabular-nums:
+	diagonal-fractions:
+	stacked-fractions:
+	ordinal:
+	slashed-zero:
+---

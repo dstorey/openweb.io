@@ -1,0 +1,14 @@
+﻿---
+name: mask-clip
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	border-box:
+	padding-box:
+	content-box:
+	no-clip:
+---

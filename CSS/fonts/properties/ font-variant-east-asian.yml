@@ -1,0 +1,23 @@
+﻿---
+name: font-variant-east-asian
+
+introduced: CSS3
+
+support:
+	firefox: 26
+
+specs:
+	- CSS3
+
+values:
+	normal:
+	jis78:
+	jis83:
+	jis90:
+	jis04:
+	simplified:
+	traditional:
+	full-width:
+	proportional-width:
+	ruby:
+---

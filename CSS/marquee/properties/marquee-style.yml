@@ -1,0 +1,25 @@
+﻿---
+name: marquee-style
+
+introduced: CSS3
+
+support:
+	safari: 2
+	opera: 15
+	chrome: 1
+
+specs:
+	- CSS3
+
+values:
+	scroll:
+	slide:
+	alternate:
+
+prefixes:
+	- Safari 2 requires the `-khtml-` prefix.
+	- Chrome 1+, Safari 3+, and Opera 15+ require the `-webkit-` prefix.
+
+notes:
+	- Chrome 29+ and Opera 16+ support this property, but CSS Marquee can no longer be enabled, so it is effectively unsupported.
+---

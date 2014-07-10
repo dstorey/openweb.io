@@ -1,0 +1,17 @@
+﻿---
+name: mask-position
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	<length>:
+	<percentage>:
+	left:
+	center:
+	right:
+	top:
+	bottom:
+---

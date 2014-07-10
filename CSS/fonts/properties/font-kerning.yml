@@ -1,0 +1,19 @@
+﻿---
+name: font-kerning
+
+introduced: CSS3
+
+support:
+	firefox: 26
+	safari: 6
+	opera: 15
+	chrome: 18
+
+specs:
+	- CSS3
+
+values:
+	none:
+	auto:
+	normal:
+---

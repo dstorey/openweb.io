@@ -1,0 +1,16 @@
+﻿---
+name: overflow-style
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	auto:
+	marquee-line:
+	marquee-block:
+
+notes:
+	- Safari supports CSS Maquee, but the implementation differs from the specification. It is enabled with the `overflow-x` or `overflow-y` property, rather than the `overflow-style` property.
+---

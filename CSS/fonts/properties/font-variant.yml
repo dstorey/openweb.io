@@ -1,0 +1,17 @@
+﻿---
+name: font-variant
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	normal:
+	none:
+	<font-variant-ligatures>:
+	<font-variant-alternates>:
+	<font-variant-caps>:
+	<font-variant-numeric>:
+	<font-variant-east-asian>:
+---

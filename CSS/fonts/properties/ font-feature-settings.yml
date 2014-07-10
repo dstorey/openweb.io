@@ -1,0 +1,34 @@
+﻿---
+name: font-feature-settings
+
+introduced: CSS3
+
+support:
+	firefox: 15
+	safari: 6
+	opera: 15
+	chrome: 15
+	ie: 10
+
+specs:
+	- CSS3
+
+values:
+	normal:
+		support:
+			firefox: 4
+			safari: 6
+			opera: 15
+			chrome: 15
+			ie: 10
+	<string>:
+		support:
+			firefox: 4
+			safari: 6
+			opera: 15
+			chrome: 15
+			ie: 10
+	<integer>:
+	on:
+	off:
+---

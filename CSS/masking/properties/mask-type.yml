@@ -1,0 +1,12 @@
+﻿---
+name: mask-type
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	luminance:
+	alpha:
+---

@@ -1,0 +1,94 @@
+﻿---
+name: font
+
+introduced: CSS1
+
+support:
+	firefox: 1
+	safari: 1
+	opera: 3.5
+	chrome: 1
+	ie: 4
+
+specs:
+	- CSS3
+	- CSS2.1
+	- CSS1
+
+values:
+	<font-style>:
+	<font-variant-css21>:
+	<font-weight>:
+	<font-size>:
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 3.5
+	        chrome: 1
+	        ie: 3
+	<line-height>:
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 3.5
+	        chrome: 1
+	        ie: 3
+	<font-family>:
+		support:
+	        firefox: 1
+	        safari: 1
+	        opera: 3.5
+	        chrome: 1
+	        ie: 3
+	caption:
+	    introduced: CSS2.1
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 6
+	        chrome: 1
+	        ie: 4
+	icon:
+	    introduced: CSS2.1
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 6
+	        chrome: 1
+	        ie: 4
+	menu:
+	    introduced: CSS2.1
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 6
+	        chrome: 1
+	        ie: 4
+	message-box:
+	    introduced: CSS2.1
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 6
+	        chrome: 1
+	        ie: 5.5
+	small-caption:
+	    introduced: CSS2.1
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 6
+	        chrome: 1
+	        ie: 5.5
+	status-bar:
+	    introduced: CSS2.1
+	    support:
+	        firefox: 1
+	        safari: 1
+	        opera: 6
+	        chrome: 1
+	        ie: 5.5
+	<font-stretch>:
+	    introduced: CSS3
+	    support: none
+---

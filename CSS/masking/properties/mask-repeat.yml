@@ -1,0 +1,16 @@
+﻿---
+name: mask-repeat
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	repeat-x:
+	repeat-y:
+	repeat:
+	space:
+	round:
+	no-repeat:
+---

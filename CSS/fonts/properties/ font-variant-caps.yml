@@ -1,0 +1,20 @@
+﻿---
+name: font-variant-caps
+
+introduced: CSS3
+
+support:
+	firefox: 26
+
+specs:
+	- CSS3
+
+values:
+	normal:
+	small-caps:
+	all-small-caps:
+	petit-caps:
+	all-petit-caps:
+	unicase:
+	titling-caps:
+---

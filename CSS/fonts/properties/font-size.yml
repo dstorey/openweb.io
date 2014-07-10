@@ -1,0 +1,42 @@
+﻿---
+name: font-size
+
+introduced: CSS1
+
+support:
+	firefox: 1
+	safari: 1
+	opera: 3.5
+	chrome: 1
+	ie: 3
+
+specs:
+	- CSS3
+	- CSS2.1
+	- CSS1
+
+values:
+	xx-small:
+	x-small:
+	small:
+	medium:
+	large:
+	x-large:
+	xx-large:
+	larger:
+		support:
+			firefox: 1
+			safari: 1
+			opera: 3.5
+			chrome: 1
+			ie: 4
+	smaller:
+		support:
+			firefox: 1
+			safari: 1
+			opera: 3.5
+			chrome: 1
+			ie: 4
+	<length>:
+	<percentage>:
+---

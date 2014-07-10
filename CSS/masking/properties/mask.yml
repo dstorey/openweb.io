@@ -1,0 +1,18 @@
+﻿---
+name: mask
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	<mask-image>:
+	<mask-mode>:
+	<mask-position>:
+	<mask-size>:
+	<mask-repeat>:
+	<mask-origin>:
+	<mask-clip>:
+	<mask-composite>:
+---

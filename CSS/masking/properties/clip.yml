@@ -1,0 +1,19 @@
+﻿---
+name: clip
+
+introduced: masking-1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 7
+    chrome: 1
+    ie: 4
+
+specs:
+	- masking-1
+
+values:
+	rect():
+	auto:
+---

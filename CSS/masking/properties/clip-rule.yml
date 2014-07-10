@@ -1,0 +1,12 @@
+﻿---
+name: clip-rule
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	nonzero:
+	evenodd:
+---

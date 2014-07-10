@@ -1,0 +1,13 @@
+﻿---
+name: mask-image
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	<image>:
+	<url>:
+	none:
+---

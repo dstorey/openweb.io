@@ -1,0 +1,16 @@
+﻿---
+name: font-synthesis
+
+introduced: CSS3
+
+support:
+	firefox: 26
+
+specs:
+	- CSS3
+
+values:
+	none:
+	weight:
+	style:
+---

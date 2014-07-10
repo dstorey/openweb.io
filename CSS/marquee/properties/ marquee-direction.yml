@@ -1,0 +1,12 @@
+﻿---
+name: marquee-direction
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	forward:
+	reverse:
+---

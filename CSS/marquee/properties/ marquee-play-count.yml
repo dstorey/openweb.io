@@ -1,0 +1,12 @@
+﻿---
+name: marquee-play-count
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	<non-negative-integer>:
+	infinite:
+---

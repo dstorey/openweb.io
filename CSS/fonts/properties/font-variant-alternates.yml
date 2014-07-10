@@ -1,0 +1,22 @@
+﻿---
+name: font-variant-alternates
+
+introduced: CSS3
+
+support:
+	firefox: 26
+
+specs:
+	- CSS3
+
+values:
+	normal:
+	stylistic():
+	historical-forms:
+	proportional-nums:
+	styleset():
+	character-variant():
+	swash():
+	ornaments():
+	annotation():
+---

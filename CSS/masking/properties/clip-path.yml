@@ -1,0 +1,13 @@
+﻿---
+name: clip-path
+
+introduced: masking-1
+
+specs:
+	- masking-1
+
+values:
+	<basic-shape>:
+	<url>:
+	none:
+---
