@@ -4,8 +4,8 @@ name: scroll-snap-destination
 introduced: snappoints-1
 
 specs:
-	- snappoints-1
+    - snappoints-1
 
 values:
-	<length>:
+    <length>:
 ---

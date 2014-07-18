@@ -4,14 +4,14 @@ name: perspective-origin
 introduced: transforms-1
 
 specs:
-	- transforms-1
+    - transforms-1
 
 values:
-	left:
-	center:
-	right:
-	top:
-	bottom:
-	<length>:
-	<percentage>:
+    left:
+    center:
+    right:
+    top:
+    bottom:
+    <length>:
+    <percentage>:
 ---

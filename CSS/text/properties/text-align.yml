@@ -4,53 +4,53 @@ name: text-align
 introduced: CSS1
 
 support:
-	firefox: 1
-	safari: 1
-	opera: 3.5
-	chrome: 1
-	ie: 3
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 3
 
 specs:
-	- CSS4
-	- CSS3
-	- CSS2.1
-	- CSS1
+    - CSS4
+    - CSS3
+    - CSS2.1
+    - CSS1
 
 values:
-	left:
-	right:
-	center:
-	justify:
-	start:
-		introduced: CSS3
-		support:
-			firefox: 1
-			safari: 1
-			opera: 15
-			chrome: 1
-	end:
-		introduced: CSS3
-		support:
-			firefox: 3.6
-			safari: 1
-			opera: 15
-			chrome: 1
-	match-parent:
-		introduced: CSS3
-		support:
-			safari: [5.1]
-			opera: [15]
-			chrome: [12]
-	start end:
-		introduced: CSS3
-		support: none
-	<string>:
-		introduced: CSS4
-		support: none
+    left:
+    right:
+    center:
+    justify:
+    start:
+        introduced: CSS3
+        support:
+            firefox: 1
+            safari: 1
+            opera: 15
+            chrome: 1
+    end:
+        introduced: CSS3
+        support:
+            firefox: 3.6
+            safari: 1
+            opera: 15
+            chrome: 1
+    match-parent:
+        introduced: CSS3
+        support:
+            safari: [5.1]
+            opera: [15]
+            chrome: [12]
+    start end:
+        introduced: CSS3
+        support: none
+    <string>:
+        introduced: CSS4
+        support: none
 
 prefixes:
-	- Chrome, Safari, and Opera require the `-webkit-` prefix on the *value* for `match-parent`. All other values are supported prefixless at this time.
-	
+    - Chrome, Safari, and Opera require the `-webkit-` prefix on the *value* for `match-parent`. All other values are supported prefixless at this time.
+    
 notes:
-	– The [official Safari documentation](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-text-align) claims `start` and `end` are supported by Safari 1. Meanwhile, [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) claims they were supported from Safari 3.1. I’ve been unable to test in versions prior to Safari 4, so as the Chrome version is incorrect on MDN, I’m going to use the official figure until I can test, or get confirmation.
+    – The [official Safari documentation](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-text-align) claims `start` and `end` are supported by Safari 1. Meanwhile, [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) claims they were supported from Safari 3.1. I’ve been unable to test in versions prior to Safari 4, so as the Chrome version is incorrect on MDN, I’m going to use the official figure until I can test, or get confirmation.
 ---

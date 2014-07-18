@@ -4,12 +4,12 @@ name: hyphenate-limit-last
 introduced: CSS4
 
 specs:
-	- CSS4
+    - CSS4
 
 values:
-	none:
-	always:
-	column:
-	page:
-	spread:
+    none:
+    always:
+    column:
+    page:
+    spread:
 ---

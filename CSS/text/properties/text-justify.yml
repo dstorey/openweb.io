@@ -4,32 +4,32 @@ name: text-justify
 introduced: CSS3
 
 support:
-	ie: 5
+    ie: 5
 
 specs:
-	- CSS4
-	- CSS3
+    - CSS4
+    - CSS3
 
 values:
     auto:
-	none:
-	    support: none
-	distribute:
-	inter-word:
-	inter-ideograph:
-	    introduced: CSS4
-	inter-cluster:
-		introduced: CSS4
-	kashida:
-	    introduced: CSS4
-		support:
-			ie: 5.5
-	newspaper:
+    none:
+        support: none
+    distribute:
+    inter-word:
+    inter-ideograph:
+        introduced: CSS4
+    inter-cluster:
+        introduced: CSS4
+    kashida:
+        introduced: CSS4
+        support:
+            ie: 5.5
+    newspaper:
         introduced: CSS3/Obsolete
 
 prefixes:
-	- Internet Explorer optionally supports the `-ms-` prefix since version 8.
-	
+    - Internet Explorer optionally supports the `-ms-` prefix since version 8.
+    
 notes:
     - Internet Explorer supports the `newspaper` value. This last appeared in the [14 May 2003 Candidate Recommendation](http://www.w3.org/TR/2003/CR-css3-text-20030514/#justification-prop) version of the CSS3 Text module.
     - Internet Explorer also supports the `distribute-all-lines` value. This has not appeared in any version of the Text module, to my knowledge.

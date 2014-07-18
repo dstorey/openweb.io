@@ -4,9 +4,9 @@ name: color-correction
 introduced: CSS4
 
 specs:
-	- CSS4
+    - CSS4
 
 values:
-	auto:
-	sRGB:
+    auto:
+    sRGB:
 ---

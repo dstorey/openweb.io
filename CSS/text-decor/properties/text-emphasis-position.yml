@@ -4,23 +4,23 @@ name: text-emphasis-positon
 introduced: CSS3
 
 support:
-	safari: [5.1]
-	opera: [15]
-	chrome: [10]
-	
+    safari: [5.1]
+    opera: [15]
+    chrome: [10]
+    
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	over:
-	under:
-	right:
-	    support: none
-	left:
-	    support: none
+    over:
+    under:
+    right:
+        support: none
+    left:
+        support: none
 
 prefixes:
-	- The `-webkit-` prefix is needed for Safari, Chrome, and Opera.
+    - The `-webkit-` prefix is needed for Safari, Chrome, and Opera.
 
 notes:
     - The `over` and `under` keywords should be used in combination (space seperated) with the `left` or `right` keyword, however, WebKit and Blink-based browsers only accept the `over` or `under` keywords on their own. This was the behaviour last seen in the [Working Draft 5 October 2010](http://www.w3.org/TR/2010/WD-css3-text-20101005/#text-emphasis-position) version of the CSS3 Text specification.

@@ -4,10 +4,10 @@ name: marks
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	none:
-	crop:
-	cross:
+    none:
+    crop:
+    cross:
 ---

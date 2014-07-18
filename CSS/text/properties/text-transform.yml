@@ -4,28 +4,28 @@ name: text-transform
 introduced: CSS1
 
 support:
-	firefox: 1
-	safari: 1
-	opera: 3.5
-	chrome: 1
-	ie: 4
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 4
 
 specs:
-	- CSS4
-	- CSS3
-	- CSS2.1
-	- CSS1
+    - CSS4
+    - CSS3
+    - CSS2.1
+    - CSS1
 
 values:
-	none:
-	capitalize:
-	uppercase:
-	lowercase:
-	full-width:
-		introduced: CSS3
-		support:
-			firefox: 19
-	full-size-kana:
-		introduced: CSS4
-		support: none
+    none:
+    capitalize:
+    uppercase:
+    lowercase:
+    full-width:
+        introduced: CSS3
+        support:
+            firefox: 19
+    full-size-kana:
+        introduced: CSS4
+        support: none
 ---

@@ -5,35 +5,35 @@ introduced: CSS2.1
 
 support:
     firefox: 1
-	safari: 1.3
-	opera: 7.2
-	chrome: 1
-	ie: 5
+    safari: 1.3
+    opera: 7.2
+    chrome: 1
+    ie: 5
 
 specs:
-	- CSS3
-	- CSS2.1
+    - CSS3
+    - CSS2.1
 
 values:
-	normal:
-	embed:
-	bidi-override:
-	isolate:
-	    support:
-	        firefox: [10]
-	        safari: [5.1]
-	        opera: [15]
-	        chrome: [16]
-	isolate-override:
-	        firefox: [17]
-	        safari: [6.1]
-	        opera: [15]
-	        chrome: [23]
-	plaintext:
-	        firefox: [10]
-	        safari: [6]
-	        opera: [15]
-	        chrome: [14]
+    normal:
+    embed:
+    bidi-override:
+    isolate:
+        support:
+            firefox: [10]
+            safari: [5.1]
+            opera: [15]
+            chrome: [16]
+    isolate-override:
+            firefox: [17]
+            safari: [6.1]
+            opera: [15]
+            chrome: [23]
+    plaintext:
+            firefox: [10]
+            safari: [6]
+            opera: [15]
+            chrome: [14]
 
 prefixes:
     - Firefox requires the `-moz-` prefix on the *value* for `isolate`, `isolate-override`, and `plaintext`.

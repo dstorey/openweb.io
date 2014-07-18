@@ -4,11 +4,11 @@ name: shape-inside
 introduced: shapes-2
 
 specs:
-	- shapes-2
+    - shapes-2
 
 values:
-	auto:
-	outside-shape:
-	<basic-shape>:
-	<url>:
+    auto:
+    outside-shape:
+    <basic-shape>:
+    <url>:
 ---

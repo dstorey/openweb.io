@@ -4,13 +4,13 @@ name: display
 introduced: ruby-1
 
 specs:
-	- ruby-1
+    - ruby-1
 
 values:
-	ruby:
-	ruby-base:
-	ruby-text:
-	ruby-base-container:
-	ruby-text-container:
-	
+    ruby:
+    ruby-base:
+    ruby-text:
+    ruby-base-container:
+    ruby-text-container:
+    
 ---

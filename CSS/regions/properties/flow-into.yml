@@ -4,11 +4,11 @@ name: flow-into
 introduced: regions-1
 
 specs:
-	- regions-1
+    - regions-1
 
 values:
-	none:
-	<ident>:
-	element:
-	content:
+    none:
+    <ident>:
+    element:
+    content:
 ---

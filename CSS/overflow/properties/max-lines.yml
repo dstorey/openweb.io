@@ -4,9 +4,9 @@ name: max-lines
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	auto:
-	<integer>:
+    auto:
+    <integer>:
 ---

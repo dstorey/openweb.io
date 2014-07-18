@@ -4,9 +4,9 @@ name: color-adjust
 introduced: CSS4
 
 specs:
-	- CSS4
+    - CSS4
 
 values:
-	economy:
-	exact:
+    economy:
+    exact:
 ---

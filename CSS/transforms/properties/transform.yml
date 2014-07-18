@@ -4,8 +4,8 @@ name: transform
 introduced: transforms-1
 
 specs:
-	- transforms-1
+    - transforms-1
 
 values:
-	List of <transform-function>s:
+    List of <transform-function>s:
 ---

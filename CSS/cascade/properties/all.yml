@@ -4,10 +4,10 @@ name: all
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	initial:
-	inherit:
-	unset:
+    initial:
+    inherit:
+    unset:
 ---

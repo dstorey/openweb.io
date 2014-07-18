@@ -4,19 +4,19 @@ name: size
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	auto:
-	<length>:
-	A5:
-	A4:
-	A3:
-	B5:
-	B4:
-	letter:
-	legal:
-	ledger:
-	portrait:
-	landscape:
+    auto:
+    <length>:
+    A5:
+    A4:
+    A3:
+    B5:
+    B4:
+    letter:
+    legal:
+    ledger:
+    portrait:
+    landscape:
 ---

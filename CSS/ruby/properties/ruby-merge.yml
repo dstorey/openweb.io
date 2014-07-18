@@ -4,10 +4,10 @@ name: ruby-merge
 introduced: ruby-1
 
 specs:
-	- ruby-1
+    - ruby-1
 
 values:
-	separate:
-	collapse:
-	auto:
+    separate:
+    collapse:
+    auto:
 ---

@@ -11,17 +11,17 @@ support:
     ie: 10
 
 specs:
-	- multicol-1
+    - multicol-1
 
 values:
-	normal:
-	    support:
-	        firefox: [3]
-	        safari: [3]
-	        opera: 11.1
-	        chrome: [1?]
-	        ie: 10
-	<column-count>:
+    normal:
+        support:
+            firefox: [3]
+            safari: [3]
+            opera: 11.1
+            chrome: [1?]
+            ie: 10
+    <column-count>:
 
 prefixes:
     - Firefox requires the `-moz-` prefix on the property.

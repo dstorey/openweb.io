@@ -4,22 +4,22 @@ name: word-spacing
 introduced: CSS1
 
 support:
-	firefox: 1
-	safari: 1
-	opera: 3.5
-	chrome: 1
-	ie: 6
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 6
 
 specs:
-	- CSS4
-	- CSS3
-	- CSS2.1
-	- CSS1
+    - CSS4
+    - CSS3
+    - CSS2.1
+    - CSS1
 
 values:
-	normal:
-	<length>:
-	<percentage>:
-		introduced: CSS3
-		support: none
+    normal:
+    <length>:
+    <percentage>:
+        introduced: CSS3
+        support: none
 ---

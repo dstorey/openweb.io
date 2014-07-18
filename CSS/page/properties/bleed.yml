@@ -4,9 +4,9 @@ name: bleed
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	auto:
-	<length>:
+    auto:
+    <length>:
 ---

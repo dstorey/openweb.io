@@ -4,27 +4,27 @@ name: text-align-last
 introduced: CSS3
 
 support:
-	firefox: 12
-	ie: 5.5
+    firefox: 12
+    ie: 5.5
 
 specs:
-	- CSS4
-	- CSS3
+    - CSS4
+    - CSS3
 
 values:
-	auto:
-	left:
-	right:
-	center:
-	justify:
-	start:
-		support:
-			firefox: 12
-	end:
-		support:
-			firefox: 12
+    auto:
+    left:
+    right:
+    center:
+    justify:
+    start:
+        support:
+            firefox: 12
+    end:
+        support:
+            firefox: 12
 
 prefixes:
-	- Firefox requires the `-moz-` prefix.
-	- Internet Explorer optionally supports the `-ms-` prefix since version 8.
+    - Firefox requires the `-moz-` prefix.
+    - Internet Explorer optionally supports the `-ms-` prefix since version 8.
 ---

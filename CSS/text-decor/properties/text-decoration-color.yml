@@ -4,11 +4,11 @@ name: text-decoration-color
 introduced: CSS3
 
 support:
-	firefox: 6
+    firefox: 6
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	<color>:
+    <color>:
 ---

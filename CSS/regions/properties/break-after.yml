@@ -4,18 +4,18 @@ name: break-after
 introduced: regions-1
 
 specs:
-	- regions-1
+    - regions-1
 
 values:
-	auto:
-	always:
-	avoid:
-	left:
-	right:
-	page:
-	column:
-	region:
-	avoid-page:
-	avoid-column:
-	avoid-region:
+    auto:
+    always:
+    avoid:
+    left:
+    right:
+    page:
+    column:
+    region:
+    avoid-page:
+    avoid-column:
+    avoid-region:
 ---

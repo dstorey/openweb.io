@@ -4,17 +4,17 @@ name: hyphenate-character
 introduced: CSS4
 
 support:
-	safari: [5.1]
-	opera: [15]
-	chrome: [13]
+    safari: [5.1]
+    opera: [15]
+    chrome: [13]
 
 specs:
-	- CSS4
+    - CSS4
 
 values:
-	auto:
-	<string>:
+    auto:
+    <string>:
 
 prefixes:
-	- The `-webkit-` prefix is needed for Safari, Chrome, and Opera.
+    - The `-webkit-` prefix is needed for Safari, Chrome, and Opera.
 ---

@@ -4,38 +4,38 @@ name: writing-mode
 introduced: CSS3
 
 support:
-	safari: [5.1]
-	opera: [15]
-	chrome: [≤ 14]
-	
+    safari: [5.1]
+    opera: [15]
+    chrome: [≤ 14]
+    
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	horizontal-tb:
-	vertical-rl:
-	vertical-lr:
-	lr-tb:
-		introduced: CSS3/Obsolete
-		support:
-			ie: 5.5
-	rl-tb:
-		introduced: CSS3/Obsolete
-		support:
-			ie: 5.5
-	tb-rl:
-		introduced: CSS3/Obsolete
-		support:
-			ie: 5.5
-	tb-lr:
-		introduced: CSS3/Obsolete
-		support:
-			ie: 5.5
+    horizontal-tb:
+    vertical-rl:
+    vertical-lr:
+    lr-tb:
+        introduced: CSS3/Obsolete
+        support:
+            ie: 5.5
+    rl-tb:
+        introduced: CSS3/Obsolete
+        support:
+            ie: 5.5
+    tb-rl:
+        introduced: CSS3/Obsolete
+        support:
+            ie: 5.5
+    tb-lr:
+        introduced: CSS3/Obsolete
+        support:
+            ie: 5.5
 
 prefixes:
-	- Chrome, Opera, and Safari require the `-webkit-` prefix.
-	- IE optionally supports the `-ms-` prefix since version 8. This should preferably be used as the syntax has changed since implementation.
+    - Chrome, Opera, and Safari require the `-webkit-` prefix.
+    - IE optionally supports the `-ms-` prefix since version 8. This should preferably be used as the syntax has changed since implementation.
 
 notes:
-	- Internet Explorer supports a previous version of the Writing Modes specification, where the values of the writing-mode property originate from SVG 1. The latest version of the spec has different values, as supported by WebKit/Blink. However, it is trivial to map between the two versions to get the same functionality in both IE and WebKit/Blink-based browsers.
+    - Internet Explorer supports a previous version of the Writing Modes specification, where the values of the writing-mode property originate from SVG 1. The latest version of the spec has different values, as supported by WebKit/Blink. However, it is trivial to map between the two versions to get the same functionality in both IE and WebKit/Blink-based browsers.
 ---

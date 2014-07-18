@@ -4,13 +4,13 @@ name: hanging-punctuation
 introduced: CSS3
 
 specs:
-	- CSS4
-	- CSS3
+    - CSS4
+    - CSS3
 
 values:
-	none:
-	first:
-	last:
-	force-end:
-	allow-end:
+    none:
+    first:
+    last:
+    force-end:
+    allow-end:
 ---

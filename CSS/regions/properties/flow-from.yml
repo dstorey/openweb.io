@@ -4,9 +4,9 @@ name: flow-from
 introduced: regions-1
 
 specs:
-	- regions-1
+    - regions-1
 
 values:
-	none:
-	<ident>:
+    none:
+    <ident>:
 ---

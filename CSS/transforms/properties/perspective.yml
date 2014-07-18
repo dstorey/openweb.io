@@ -4,9 +4,9 @@ name: perspective
 introduced: transforms-1
 
 specs:
-	- transforms-1
+    - transforms-1
 
 values:
-	<length>:
-	none:
+    <length>:
+    none:
 ---

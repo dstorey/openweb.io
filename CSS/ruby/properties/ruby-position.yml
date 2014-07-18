@@ -4,12 +4,12 @@ name: ruby-position
 introduced: ruby-1
 
 specs:
-	- ruby-1
+    - ruby-1
 
 values:
-	over:
-	under:
-	inter-character:
-	left:
-	right:
+    over:
+    under:
+    inter-character:
+    left:
+    right:
 ---

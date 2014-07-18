@@ -1,5 +1,5 @@
 ﻿---
-name: text-emphasis-color
+name: text-emphasis-style
 
 introduced: CSS3
 
@@ -12,7 +12,15 @@ specs:
     - CSS3
 
 values:
-    <color>:
+    none:
+    filled:
+    open:
+    dot:
+    circle:
+    double-circle:
+    triangle:
+    sesame:
+    <string>:
 
 prefixes:
     - The `-webkit-` prefix is needed for Safari, Chrome, and Opera.

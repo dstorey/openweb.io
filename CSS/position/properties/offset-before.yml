@@ -4,10 +4,10 @@ name: offset-before
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	auto:
-	<length>:
-	<percentage>:
+    auto:
+    <length>:
+    <percentage>:
 ---

@@ -4,9 +4,9 @@ name: shape-padding
 introduced: shapes-2
 
 specs:
-	- shapes-2
+    - shapes-2
 
 values:
-	<length>:
-	<percentage>:
+    <length>:
+    <percentage>:
 ---

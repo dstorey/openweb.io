@@ -4,22 +4,22 @@ name: text-decoration
 introduced: CSS1
 
 specs:
-	- CSS4
-	- CSS3
-	- CSS2.1
-	- CSS1
+    - CSS4
+    - CSS3
+    - CSS2.1
+    - CSS1
 
 values:
-	<text-decoration-line>:
-		support:
-			firefox: 1
-			safari: 1
-			opera: 3.5
-			chrome: 1
-			ie: 3
-	<text-decoration-style>:
-	<text-decoration-color>:
+    <text-decoration-line>:
+        support:
+            firefox: 1
+            safari: 1
+            opera: 3.5
+            chrome: 1
+            ie: 3
+    <text-decoration-style>:
+    <text-decoration-color>:
 
 notes:
-	- In its original form, `text-decoration` accepted the same keywords as the new `text-decoration-line` property, with the exception of the `wavy` keyword. CSS3 Text Decoration converts this property into a shorthand. If the additional values are omitted, it is backwards compatible with the original `text-decoration` specified in CSS1 and 2.
+    - In its original form, `text-decoration` accepted the same keywords as the new `text-decoration-line` property, with the exception of the `wavy` keyword. CSS3 Text Decoration converts this property into a shorthand. If the additional values are omitted, it is backwards compatible with the original `text-decoration` specified in CSS1 and 2.
 ---

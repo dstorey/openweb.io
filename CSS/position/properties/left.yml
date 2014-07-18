@@ -4,18 +4,18 @@ name: left
 introduced: CSS2.1
 
 support:
-	firefox: 1
-	safari: 1
-	opera: 4
-	chrome: 1
-	ie: 4
+    firefox: 1
+    safari: 1
+    opera: 4
+    chrome: 1
+    ie: 4
 
 specs:
-	- CSS3
-	- CSS2.1
+    - CSS3
+    - CSS2.1
 
 values:
-	auto:
-	<length>:
-	<percentage>:
+    auto:
+    <length>:
+    <percentage>:
 ---

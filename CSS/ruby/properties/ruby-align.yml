@@ -4,11 +4,11 @@ name: ruby-align
 introduced: ruby-1
 
 specs:
-	- ruby-1
+    - ruby-1
 
 values:
-	start:
-	center:
-	space-between:
-	space-around:
+    start:
+    center:
+    space-between:
+    space-around:
 ---

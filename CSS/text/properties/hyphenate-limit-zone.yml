@@ -4,15 +4,15 @@ name: hyphenate-limit-zone
 introduced: CSS4
 
 support:
-	ie: [10]
+    ie: [10]
 
 specs:
-	- CSS4
+    - CSS4
 
 values:
-	<percentage>:
-	<length>:
+    <percentage>:
+    <length>:
 
 prefixes:
-	- The `-ms-` prefix is needed for Internet Explorer 10 and above.
+    - The `-ms-` prefix is needed for Internet Explorer 10 and above.
 ---

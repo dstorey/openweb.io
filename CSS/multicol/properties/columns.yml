@@ -11,11 +11,11 @@ support:
     ie: 10
 
 specs:
-	- multicol-1
+    - multicol-1
 
 values:
-	<column-width>:
-	<column-count>:
+    <column-width>:
+    <column-count>:
 
 prefixes:
     - Firefox requires the `-moz-` prefix on the property.

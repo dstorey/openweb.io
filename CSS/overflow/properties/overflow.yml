@@ -4,41 +4,41 @@ name: overflow
 introduced: CSS2.1
 
 specs:
-	- CSS3
-	- CSS2.1
+    - CSS3
+    - CSS2.1
 
 support:
-	firefox: 3.5
-	safari: 3
-	opera: 4
-	chrome: 1
-	ie: 4
+    firefox: 3.5
+    safari: 3
+    opera: 4
+    chrome: 1
+    ie: 4
 
 values:
-	auto:
-		support:
-			firefox: 3.5
-			safari: 3
-			opera: 7
-			chrome: 1
-			ie: 4
-	scroll:
-		support:
-			firefox: 3.5
-			safari: 3
-			opera: 7
-			chrome: 1
-			ie: 4
-	visible:
-	hidden:
-	paged-x:
-		support: none
-	paged-y:
-		support: none
-	paged-x-controls:
-		support: none
-	paged-y-controls:
-		support: none
-	fragments:
-		support: none
+    auto:
+        support:
+            firefox: 3.5
+            safari: 3
+            opera: 7
+            chrome: 1
+            ie: 4
+    scroll:
+        support:
+            firefox: 3.5
+            safari: 3
+            opera: 7
+            chrome: 1
+            ie: 4
+    visible:
+    hidden:
+    paged-x:
+        support: none
+    paged-y:
+        support: none
+    paged-x-controls:
+        support: none
+    paged-y-controls:
+        support: none
+    fragments:
+        support: none
 ---

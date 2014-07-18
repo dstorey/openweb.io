@@ -7,14 +7,14 @@ support:
     ie: [10]
 
 specs:
-	- exclusions-1
+    - exclusions-1
 
 values:
-	auto:
-	both:
-	start:
-	end:
-	minimum:
-	maximum:
-	clear:
+    auto:
+    both:
+    start:
+    end:
+    minimum:
+    maximum:
+    clear:
 ---

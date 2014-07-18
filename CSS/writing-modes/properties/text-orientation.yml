@@ -4,30 +4,30 @@ name: text-orientation
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	mixed:
-	upright:
-		support:
-			safari: [5.1]
-			opera: [15]
-			chrome: [23]
-	sideways:
-			safari: [6.1] (partial)
-			opera: [15] (partial)
-			chrome: [25] (partial)
-	sideways-right:
-			safari: [6.1]
-			opera: [15]
-			chrome: [25]
-	sideways-left:
-	use-glyph-orientation:
+    mixed:
+    upright:
+        support:
+            safari: [5.1]
+            opera: [15]
+            chrome: [23]
+    sideways:
+            safari: [6.1] (partial)
+            opera: [15] (partial)
+            chrome: [25] (partial)
+    sideways-right:
+            safari: [6.1]
+            opera: [15]
+            chrome: [25]
+    sideways-left:
+    use-glyph-orientation:
 
 prefixes:
-	- Chrome, Safari, and Opera require the `-webkit-` prefix
+    - Chrome, Safari, and Opera require the `-webkit-` prefix
 
 notes:
-	- WebKit/Blink treats `sideways` as an alias for `sideways-right`. It should behave the same as `sideways-left` when using `writing-mode` with the `vertical-lr` value, but this is not supported.
-	- Support was added in Safari for `upright` somewhere between 5.1.8 and 5.1.9. It does not work on Safari 5.1.7 for Windows, while it does work on Safari 5.1.9 for Mac. These are the versions that BrowserStack have available.
+    - WebKit/Blink treats `sideways` as an alias for `sideways-right`. It should behave the same as `sideways-left` when using `writing-mode` with the `vertical-lr` value, but this is not supported.
+    - Support was added in Safari for `upright` somewhere between 5.1.8 and 5.1.9. It does not work on Safari 5.1.7 for Windows, while it does work on Safari 5.1.9 for Mac. These are the versions that BrowserStack have available.
 ---

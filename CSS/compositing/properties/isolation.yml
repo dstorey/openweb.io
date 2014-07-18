@@ -4,9 +4,9 @@ name: isolation
 introduced: compositing-1
 
 specs:
-	- compositing-1
+    - compositing-1
 
 values:
-	auto:
-	isolate:
+    auto:
+    isolate:
 ---

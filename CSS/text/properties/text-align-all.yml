@@ -4,15 +4,15 @@ name: text-align-all
 introduced: CSS3
 
 specs:
-	- CSS4
-	- CSS3
+    - CSS4
+    - CSS3
 
 values:
-	left:
-	right:
-	center:
-	justify:
-	start:
-	end:
-	match-parent:
+    left:
+    right:
+    center:
+    justify:
+    start:
+    end:
+    match-parent:
 ---

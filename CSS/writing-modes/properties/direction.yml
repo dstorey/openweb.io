@@ -4,17 +4,17 @@ name: direction
 introduced: CSS2.1
 
 support:
-	firefox: 1
-	safari: 1
-	opera: 7.2
-	chrome: 1
-	ie: 5
+    firefox: 1
+    safari: 1
+    opera: 7.2
+    chrome: 1
+    ie: 5
 
 specs:
-	- CSS3
-	- CSS2.1
+    - CSS3
+    - CSS2.1
 
 values:
-	ltr:
-	rtl:
+    ltr:
+    rtl:
 ---

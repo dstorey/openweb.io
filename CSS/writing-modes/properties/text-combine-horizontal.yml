@@ -4,16 +4,16 @@ name: text-combine-horizontal
 introduced: CSS3
 
 support:
-	ie: [11]
+    ie: [11]
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	none:
-	all:
-	digits <integer>:
+    none:
+    all:
+    digits <integer>:
 
 prefixes:
-	- Internet Explorer 11 requires the `-ms-` prefix.
+    - Internet Explorer 11 requires the `-ms-` prefix.
 ---

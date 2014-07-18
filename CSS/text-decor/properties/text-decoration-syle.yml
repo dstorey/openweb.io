@@ -4,15 +4,15 @@ name: text-decoration-style
 introduced: CSS3
 
 support:
-	firefox: 6
+    firefox: 6
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	solid:
-	double:
-	dotted:
-	dashed:
-	wavy:
+    solid:
+    double:
+    dotted:
+    dashed:
+    wavy:
 ---

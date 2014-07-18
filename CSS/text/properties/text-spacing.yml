@@ -4,32 +4,32 @@ name: text-spacing
 introduced: CSS4
 
 specs:
-	- CSS4
+    - CSS4
 
 values:
-	normal:
-	none:
-		support:
-			ie: 5 (alt)
-	trim-start:
-	space-start:
-	trim-end:
-	space-end:
-	allow-end:
-	trim-adjacent:
-	space-adjacent:
-	no-compress:
-	ideograph-alpha:
-		support:
-			ie: 5 (alt)
-	ideograph-numeric:
-		support:
-			ie: 5 (alt)
-	punctuation:
-	
+    normal:
+    none:
+        support:
+            ie: 5 (alt)
+    trim-start:
+    space-start:
+    trim-end:
+    space-end:
+    allow-end:
+    trim-adjacent:
+    space-adjacent:
+    no-compress:
+    ideograph-alpha:
+        support:
+            ie: 5 (alt)
+    ideograph-numeric:
+        support:
+            ie: 5 (alt)
+    punctuation:
+    
 prefixes:
-	– Internet Explorer optionally supports the `-ms-` prefix for the `text-autospace` property since version 8. This should preferably be used, as the property has been renamed.
-	
+    – Internet Explorer optionally supports the `-ms-` prefix for the `text-autospace` property since version 8. This should preferably be used, as the property has been renamed.
+    
 notes:
-	- The `text-spacing` property originated as `text-autospace` and `text-trim`. Internet Explorer supports the `none`, `ideograph-alpha` and `ideograph-numeric` values using the original `text-autospace` property. This last appeared in the [Candidate Recommendation 14 May 2003](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-autospace-prop) version of the Text module
+    - The `text-spacing` property originated as `text-autospace` and `text-trim`. Internet Explorer supports the `none`, `ideograph-alpha` and `ideograph-numeric` values using the original `text-autospace` property. This last appeared in the [Candidate Recommendation 14 May 2003](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-autospace-prop) version of the Text module
 ---

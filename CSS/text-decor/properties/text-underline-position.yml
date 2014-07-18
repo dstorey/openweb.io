@@ -4,27 +4,27 @@ name: text-underline-position
 introduced: CSS3
 
 specs:
-	- CSS3
+    - CSS3
 
 values:
-	auto:
-		support:
-			ie: 6
-	under:
-		support:
-			ie: Alt
-	left:
-		support:
-			ie: Alt
-	right:
-		support:
-			ie: Alt
-	below:
-		introduced: CSS3/Obsolete
-		support:
-			ie: 5.5
+    auto:
+        support:
+            ie: 6
+    under:
+        support:
+            ie: Alt
+    left:
+        support:
+            ie: Alt
+    right:
+        support:
+            ie: Alt
+    below:
+        introduced: CSS3/Obsolete
+        support:
+            ie: 5.5
 
 notes:
-	- The `under` value was previously named `below`. IE supports the latter value. However, IE will place the underline on the alphabetic baseline (as specified by the dropped `alphabetic` value), instead of the under edge of the content box (i.e. doesn’t cross the descenders.)
-	- In vertical writing modes, the `above` and `below` keywords supported by IE5.5 and above give the same behaviour as the current `right` and `left` keywords respectively. *I need to verify this is true*.
+    - The `under` value was previously named `below`. IE supports the latter value. However, IE will place the underline on the alphabetic baseline (as specified by the dropped `alphabetic` value), instead of the under edge of the content box (i.e. doesn’t cross the descenders.)
+    - In vertical writing modes, the `above` and `below` keywords supported by IE5.5 and above give the same behaviour as the current `right` and `left` keywords respectively. *I need to verify this is true*.
 ---
