@@ -3,10 +3,13 @@ name: wrap-through
 
 introduced: exclusions-1
 
+support:
+    ie: [10]
+
 specs:
-	- exclusions-1
+    - exclusions-1
 
 values:
-	none:
-	wrap:
+    none:
+    wrap:
 ---
