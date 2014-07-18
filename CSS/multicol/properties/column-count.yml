@@ -1,0 +1,24 @@
+﻿---
+name: column-count
+
+introduced: multicol-1
+
+support:
+    firefox: [1.5]
+    safari: [3]
+    opera: 11.1
+    chrome: [1?]
+    ie: 10
+
+specs:
+	- multicol-1
+
+values:
+	auto:
+	<integer>:
+
+prefixes:
+    - Firefox requires the `-moz-` prefix on the property.
+    - Chrome, Safari, and Opera 15+ requires the `-webkit-` prefix on the property.
+    - Opera supports the property without a prefix in versions based on Presto.
+---

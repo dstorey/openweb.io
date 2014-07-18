@@ -1,0 +1,16 @@
+﻿---
+name: scroll-snap-type
+
+introduced: snappoints-1
+
+support:
+	ie: [10]
+
+specs:
+	- snappoints-1
+
+values:
+	none:
+	mandatory:
+	proximity:
+---

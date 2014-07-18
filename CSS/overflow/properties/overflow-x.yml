@@ -1,0 +1,31 @@
+﻿---
+name: overflow-x
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+support:
+	firefox: 3.5
+	safari: 3
+	opera: 9.5
+	chrome: 1
+	ie: 5
+
+values:
+	auto:
+	scroll:
+	visible:
+	hidden:
+	paged-x:
+		support: none
+	paged-y:
+		support: none
+	paged-x-controls:
+		support: none
+	paged-y-controls:
+		support: none
+	fragments:
+		support: none
+---

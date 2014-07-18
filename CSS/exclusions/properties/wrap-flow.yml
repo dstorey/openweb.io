@@ -3,6 +3,9 @@ name: wrap-flow
 
 introduced: exclusions-1
 
+support:
+    ie: [10]
+
 specs:
 	- exclusions-1
 

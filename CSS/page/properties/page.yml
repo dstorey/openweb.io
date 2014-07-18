@@ -1,0 +1,12 @@
+﻿---
+name: page
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	auto:
+	<ident>:
+---

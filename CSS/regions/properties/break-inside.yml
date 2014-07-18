@@ -1,0 +1,15 @@
+﻿---
+name: break-inside
+
+introduced: regions-1
+
+specs:
+	- regions-1
+
+values:
+	auto:
+	avoid:
+	avoid-page:
+	avoid-column:
+	avoid-region:
+---

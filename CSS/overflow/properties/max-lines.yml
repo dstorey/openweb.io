@@ -1,0 +1,12 @@
+﻿---
+name: max-lines
+
+introduced: CSS3
+
+specs:
+	- CSS3
+
+values:
+	auto:
+	<integer>:
+---

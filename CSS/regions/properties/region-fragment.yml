@@ -1,0 +1,12 @@
+﻿---
+name: region-fragment
+
+introduced: regions-1
+
+specs:
+	- regions-1
+
+values:
+	auto:
+	break:
+---

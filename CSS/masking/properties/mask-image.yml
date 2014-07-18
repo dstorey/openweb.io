@@ -7,7 +7,7 @@ specs:
 	- masking-1
 
 values:
+	none:
 	<image>:
 	<url>:
-	none:
 ---

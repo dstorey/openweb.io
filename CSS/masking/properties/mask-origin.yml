@@ -7,7 +7,5 @@ specs:
 	- masking-1
 
 values:
-	border-box:
-	padding-box:
-	content-box:
+	<box>:
 ---

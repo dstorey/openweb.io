@@ -1,0 +1,25 @@
+﻿---
+name: scroll-snap-points-y
+
+introduced: snappoints-1
+
+specs:
+	- snappoints-1
+
+values:
+	<length>:
+	repeat():
+	elements:
+	snapInterval():
+		introduced: snappoints-1/Obsolete
+		support:
+			ie: [10]
+	snapList():
+		introduced: snappoints-1/Obsolete
+		support:
+			ie: [10]
+
+notes:
+	- IE supports a previous version of the Scrolling Snap Points specification. <length> values were included in the `snapList()` function, and the `repeat()` function was named `snapInterval()`.
+	- IE 10 supports this property for touchscreen only. IE 11 adds support for touchpad, mouse, and keyboard.
+---

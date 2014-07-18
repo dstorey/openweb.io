@@ -1,0 +1,12 @@
+﻿---
+name: scroll-snap-coordinate
+
+introduced: snappoints-1
+
+specs:
+	- snappoints-1
+
+values:
+	none:
+	<length>:
+---

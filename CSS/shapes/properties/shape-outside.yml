@@ -1,0 +1,16 @@
+﻿---
+name: shape-outside
+
+introduced: shapes-1
+
+specs:
+	- shapes-2
+	- shapes-1
+
+values:
+	none:
+	<basic-shape>:
+	<box>:
+	margin-box:
+	<image>:
+---
