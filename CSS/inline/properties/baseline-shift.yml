@@ -1,0 +1,28 @@
+﻿---
+name: baseline-shift
+
+introduced: SVG1
+
+support:
+    firefox: no?
+    safari: yes
+    opera: yes
+    chrome: yes
+    ie: 9
+
+specs:
+    - CSS3
+    - SVG1.1
+    - SVG1
+
+values:
+    baseline:
+    sub:
+    super:
+    <percentage>:
+    <length>:
+
+notes:
+    - Support chart not finished. Needs real data for non-IE.
+    - Support denotes the property working in SVG. Need a way of showing difference between HTML/CSS and SVG
+---

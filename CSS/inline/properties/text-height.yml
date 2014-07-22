@@ -1,0 +1,15 @@
+﻿---
+name: text-height
+
+introduced: CSS3
+
+specs:
+    - CSS3
+
+values:
+    auto:
+    font-size:
+    text-size:
+    max-size:
+    <number>:
+---

@@ -1,0 +1,32 @@
+﻿---
+name: line-height
+
+introduced: CSS1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 3
+
+specs:
+    - CSS3
+    - CSS2.1
+    - CSS1
+
+values:
+    normal:
+    <number>:
+        support:
+            firefox: 1
+            safari: 1
+            opera: 3.5
+            chrome: 1
+            ie: 4
+    <length>:
+    <percentage>:
+    none:
+        introduced: CSS3
+        support: none
+---

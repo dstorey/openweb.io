@@ -1,0 +1,11 @@
+﻿---
+name: initial-letters
+
+introduced: CSS3
+
+specs:
+    - CSS3
+
+values:
+    <integer>:
+---

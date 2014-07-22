@@ -1,0 +1,24 @@
+﻿---
+name: alignment-adjust
+
+introduced: CSS3
+
+specs:
+    - CSS3
+
+values:
+    auto:
+    baseline:
+    over-edge:
+    text-over-edge:
+    middle:
+    central:
+    under-edge:
+    text-under-edge:
+    ideographic:
+    alphabetic:
+    hanging:
+    mathematical:
+    <percentage>:
+    <length>:
+---

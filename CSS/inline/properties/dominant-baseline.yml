@@ -1,0 +1,40 @@
+﻿---
+name: dominant-baseline
+
+introduced: SVG1
+
+support:
+    firefox: yes
+    safari: yes
+    opera: yes
+    chrome: yes
+    ie: 9
+
+specs:
+    - CSS3
+    - SVG1.1
+    - SVG1
+
+values:
+    auto:
+    use-script:
+    no-change:
+    reset-size:
+    text-before-edge:
+    text-after-edge:
+    text-top:
+        support: none
+    text-bottom:
+        support: none
+    central:
+    middle:
+    ideographic:
+    alphabetic:
+    hanging:
+    mathematical:
+
+notes:
+    - Support chart not finished. Needs real data for non-IE.
+    - Support denotes the property working in SVG. Need a way of showing difference between HTML/CSS and SVG
+    - text-top and text-bottom are only in SVG1.0. Need way to show they're deprecated. Is it worth tracking SVG1.0 only features?
+---

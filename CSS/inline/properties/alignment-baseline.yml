@@ -1,0 +1,51 @@
+﻿---
+name: alignment-baseline
+
+introduced: SVG1
+
+support:
+    firefox: yes
+    safari: yes
+    opera: yes
+    chrome: yes
+    ie: 10
+
+specs:
+    - CSS3
+    - SVG1.1
+    - SVG1
+
+values:
+    auto:
+    baseline:
+    before-edge:
+    text-before-edge:
+    central:
+    middle:
+    after-edge:
+    text-after-edge:
+    ideographic:
+    alphabetic:
+    hanging:
+    mathematical:
+    use-script:
+        introduced: CSS3
+        support: none
+    over-edge:
+        introduced: CSS3
+        support: none
+    text-over-edge:
+        introduced: CSS3
+        support: none
+    under-edge:
+        introduced: CSS3
+        support: none
+    text-under-edge:
+        introduced: CSS3
+        support: none
+
+notes:
+    - Support chart not finished. Needs real data for non-IE. New values need checking
+    - Need to check if `auto`, `before-edge`, and `after-edge` were renamed to `use-script`, `over-edge`, and `under-edge`
+    - Support denotes the property working in SVG. Need a way of showing difference between HTML/CSS and SVG
+---
