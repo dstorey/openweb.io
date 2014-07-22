@@ -1,0 +1,12 @@
+﻿---
+name: scroll-behavior
+
+introduced: CSSOM-View-1
+
+specs:
+    - CSSOM-View-1
+
+values:
+    instant:
+    smooth:
+---

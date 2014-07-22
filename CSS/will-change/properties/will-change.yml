@@ -1,0 +1,18 @@
+﻿---
+name: will-change
+
+introduced: will-change-1
+
+support:
+    opera: 24
+    chrome: 36
+
+specs:
+    - will-change-1
+
+values:
+    auto:
+    scroll-position:
+    contents:
+    <custom-ident>:
+---
