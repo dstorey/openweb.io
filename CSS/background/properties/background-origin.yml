@@ -1,0 +1,29 @@
+﻿---
+name: background-origin
+
+introduced: CSS3
+
+support:
+    firefox: 4
+    safari: [4, 4.1]
+    opera: 10.5
+    chrome: ~4
+    ie: 9
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    border-box:
+    padding-box:
+    content-box:
+    List of <box>es:
+
+prefixes:
+    - Firefox 1 to 3.6 required the `-moz-` prefix, using the alternative values `border`, and `padding`.
+    - Safari required the `-webkit-` prefix in Safari 4, using the values as they’re currently specified. Safari 3 supported the alternative values `border`, `padding` and `content`.
+    
+notes:
+    - All the support notes that apply to `background-clip` also apply to `background-origin`
+---

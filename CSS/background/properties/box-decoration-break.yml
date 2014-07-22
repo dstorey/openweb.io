@@ -1,0 +1,16 @@
+﻿---
+name: box-decoration-break
+
+introduced: CSS3
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    slice:
+    clone:
+
+notes:
+    - Opera supported `box-decoration-break` from version 11. However, support regressed when they switched to Blink with version 15.
+---

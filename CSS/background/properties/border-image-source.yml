@@ -1,0 +1,25 @@
+﻿---
+name: border-image-source
+
+introduced: CSS3
+
+support:
+    firefox: 15
+    safari: 5.1
+    opera: 15
+    chrome: 15
+    ie: 11
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    none:
+    <image>:
+
+notes:
+    - Firefox only supports the `url()` function for <image> types.
+    - Safari 5.1–6 only supports the `url()` function for <image> types. Safari 6.1 and above support all the <image> types in `border-image-source` that are supported by the browser itself. For more details on what image types are supported, see the <image> support table.
+    - Chrome 15–25 only supports the `url()` function for the <image> types. Chrome 26 and above support all <image> values with `border-image-source` that the browser itself supports. For more details on what image types are supported, see the <image> support table.
+---

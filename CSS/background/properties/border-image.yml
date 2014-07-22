@@ -1,0 +1,37 @@
+﻿---
+name: border-image
+
+introduced: CSS3
+
+support:
+    firefox: [3.5, 15]
+    safari: [3, 5.1]
+    opera: [11, 15]
+    chrome: [?, 15]
+    ie: 11
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    <border-image-source>:
+    <border-image-slice>	:
+        support:
+            firefox: 15
+            safari: ?
+            opera: ?
+            chrome: ?
+            ie: 11
+    <border-image-width>:
+    <border-image-outset>:
+    <border-image-repeat>:
+
+prefixes:
+    - Firefox 3.5–14 require the `-moz-` prefix. <border-image-slice> can not be used as part of the shorthand in these versions.
+    - Safari 3–5 and Chrome ?–14 require the `-webkit-` prefix.
+    - Opera 11–12.1x require the `-o-` prefix. The property was originally implemented without the prefix in Opera 10.5, before the property was changed in the spec to become a shorthand.
+
+notes:
+    - *NEEDS REAL TESTING. Data from MDN so far*
+---

@@ -1,0 +1,53 @@
+﻿---
+name: background-repeat
+
+introduced: CSS1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 4
+
+specs:
+    - CSS4
+    - CSS3
+    - CSS2.1
+    - CSS1
+
+values:
+    no-repeat:
+    repeat:
+    repeat-x:
+    repeat-y:
+    round:
+        introduced: CSS3
+        support:
+            ie: 9
+    space:
+        introduced: CSS3
+        support:
+            ie: 9
+    2 keywords:
+        introduced: CSS3
+        support:
+            firefox: 13
+            safari: 4.1
+            opera: 10.5
+            chrome: < 14
+            ie: 9
+    List of repeat styles:
+        introduced: CSS3
+        support:
+            firefox: 3.6
+            safari: 1.3
+            opera: 10.5
+            chrome: 1
+            ie: 9
+
+notes:
+    - Opera added support for the `round` and `space` values in Opera 10.5. When switching to the Blink rendering engine in Opera 14, support for these values was dropped.
+    - WebKit (and thus Blink) parse the `round` and `space` values, but do not implement the feature. Instead, they were made to behave like `no-repeat`. For this reason, these values are marked as unsupported in Chrome, Opera, and Safari. This behaviour makes it difficult to use the usual CSS fallback strategies. It also makes it look like the feature is supported in automated tests.
+    - I have not been able to verify yet when Chrome added support for specifying two keywords. Some time before Chrome 14.
+---

@@ -1,0 +1,47 @@
+﻿---
+name: background-position
+
+introduced: CSS1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 4
+
+specs:
+    - CSS4
+    - CSS3
+    - CSS2.1
+    - CSS1
+
+values:
+    top:
+    right:
+    bottom:
+    left:
+    center:
+    <length>:
+    <percentage>:
+    keyword with <length> or <percentage>:
+        introduced: CSS2.1
+    3–4 values:
+        introduced: CSS3
+        support:
+            firefox: 13
+            safari: 6.1
+            opera: 10.5
+            chrome: 25
+            ie: 9
+    List of positions:
+        introduced: CSS3
+        support:
+            firefox: 3.6
+            safari: 1.3
+            opera: 10.5
+            chrome: 1
+            ie: 9
+notes:
+    - I have not been able to test far enough back to ascertain when the CSS2.1 syntax was introduced by the various browsers. I’m assuming it was the same time as the original CSS1 support, until I can verify further.
+---

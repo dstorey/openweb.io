@@ -1,0 +1,36 @@
+﻿---
+name: box-shadow
+
+introduced: CSS3
+
+support:
+    firefox: [3, 4]
+    safari: [3, 5.1]
+    opera: 10.5
+    chrome: [1, 10]
+    ie: 9
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    none:
+    inset:
+        support:
+            firefox: [3, 4]
+            safari: [4.1, 5.1]
+            opera: 10.5
+            chrome: [4, 10]
+            ie: 9
+    <length>:
+    <color>:
+    List of shadows:
+
+prefixes:
+    - Firefox 3.5–3.6 require the `-moz-` prefix. Firefox 4–12 continued to support the prefixed version as an alias to the standard version.
+    - Safari 3–5, and Chrome 1–9 require the `-webkit-` prefix.
+
+notes:
+    - Safari and Chrome only supported 3 <length> values until Safari 4.1 and Chrome 4 respectively. The unsupported 4th <length> value is for the spread radius.
+---

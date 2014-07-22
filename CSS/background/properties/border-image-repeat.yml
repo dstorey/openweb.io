@@ -1,0 +1,27 @@
+﻿---
+name: border-image-repeat
+
+introduced: CSS3
+
+support:
+    firefox: 15
+    safari: 5.1
+    opera: 15
+    chrome: 15
+    ie: 11
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    stretch:
+    repeat:
+    round:
+    space:
+        support:
+            safari: 5.1
+            opera: 15
+            chrome: 15
+            ie: 11
+---

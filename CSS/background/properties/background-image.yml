@@ -1,0 +1,34 @@
+﻿---
+name: background-image
+
+introduced: CSS1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 4
+
+specs:
+    - CSS4
+    - CSS3
+    - CSS2.1
+    - CSS1
+
+values:
+    none:
+    <image>:
+    List of <image>s:
+        introduced: CSS3
+        support:
+            firefox: 3.6
+            safari: 1.3
+            opera: 10.5
+            chrome: 1
+            ie: 9
+
+notes:
+    - The valid <image> values were extended in CSS Image Values Level 3. See the image values section for a complete list, and full support information.
+    - Multiple <image>s are specified using a comma separated list, layered front to back, with the first image specified on top, and the last on bottom
+---

@@ -1,0 +1,41 @@
+﻿---
+name: border-bottom-style
+
+introduced: CSS2.1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 4
+
+specs:
+    - CSS4
+    - CSS3
+    - CSS2.1
+
+values:
+    none:
+    hidden:
+    dotted:
+        support:
+            firefox: 1
+            safari: 1
+            opera: 3.5
+            chrome: 1
+            ie: 5.5
+    dashed:
+        support:
+            firefox: 1
+            safari: 1
+            opera: 3.5
+            chrome: 1
+            ie: 5.5
+    solid:
+    groove:
+    ridge:
+    inset:
+    outset:
+    double:
+---

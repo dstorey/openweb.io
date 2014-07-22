@@ -1,0 +1,12 @@
+﻿---
+name: corners
+
+introduced: CSS4
+
+specs:
+    - CSS4
+
+values:
+    <corner-shape>:
+    <border-radius>:
+---

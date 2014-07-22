@@ -1,0 +1,32 @@
+﻿---
+name: border-top-left-radius
+
+introduced: CSS3
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    <length>:
+        support:
+            firefox: 4
+            safari: [3, 4.1]
+            opera: 10.5
+            chrome: [1, 4]
+            ie: 9
+    <percentage>:
+        support:
+            firefox: 4
+            safari: 4.1
+            opera: 10.5
+            chrome: 4
+            ie: 9
+
+prefixes:
+    - Safari 3–4.1 and Chrome 1–3 required the `-webkit-` prefix.
+
+notes:
+    - Firefox supported this property using the alternative name `-moz-border-radius-topleft` since version 1. This was dropped in Firefox 13.
+    - Firefox can only display `solid` borders when using `border-radius`. Other border styles are converted to a solid line.
+---
