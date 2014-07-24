@@ -1,0 +1,12 @@
+﻿---
+name: line-grid
+
+introduced: line-grid-1
+
+specs:
+    - line-grid-1
+
+values:
+    match-parent:
+    create:
+---

@@ -1,0 +1,13 @@
+﻿---
+name: line-snap
+
+introduced: line-grid-1
+
+specs:
+    - line-grid-1
+
+values:
+    none:
+    baseline:
+    contain:
+---

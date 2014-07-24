@@ -1,0 +1,16 @@
+﻿---
+name: box-snap
+
+introduced: line-grid-1
+
+specs:
+    - line-grid-1
+
+values:
+    none:
+    before:
+    after:
+    center:
+    first-baseline:
+    last-baseline:
+---
