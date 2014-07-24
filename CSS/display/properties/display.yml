@@ -1,0 +1,44 @@
+﻿---
+name: display
+
+introduced: CSS1
+
+specs:
+    - CSS3
+    - CSS2.1
+    - CSS1
+
+values:
+    inline:
+    block:
+    list-item:
+    inline-block:
+        introduced: CSS2.1
+    table:
+        introduced: CSS2.1
+    inline-table:
+        introduced: CSS2.1
+    table-cell:
+        introduced: CSS2.1
+    table-caption:
+        introduced: CSS2.1
+    flex:
+        introduced: flexbox-1
+    inline-flex:
+        introduced: flexbox-1
+    grid:
+        introduced: grid-1
+    inline-grid:
+        introduced: grid-1
+    inline-list-item:
+        introduced: CSS3
+    <display-inside>:
+        introduced: CSS3
+    <display-outside>:
+        introduced: CSS3
+    <display-extras>:
+        introduced: CSS3
+---
+
+notes:
+    - The `display` property was converted to a shorthand in CSS Display Level 3. A number of the values now defined in the sub properties were originally introduced in CSS1 and CSS2.1 on the `display` property, and are supported by all major browsers.

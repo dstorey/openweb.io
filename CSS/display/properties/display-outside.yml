@@ -1,0 +1,27 @@
+﻿---
+name: display-outside
+
+introduced: CSS3
+
+specs:
+    - CSS3
+
+values:
+    block-level:
+    inline-level:
+    run-in:
+    contents:
+    none:
+    table-row-group:
+    table-header-group:
+    table-footer-group:
+    table-row:
+    table-cell:
+    table-column-group:
+    table-column:
+    table-caption:
+    ruby-base:
+    ruby-text:
+    ruby-base-container:
+    ruby-text-container:
+---

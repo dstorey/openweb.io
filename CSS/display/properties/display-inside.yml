@@ -1,0 +1,16 @@
+﻿---
+name: display-inside
+
+introduced: CSS3
+
+specs:
+    - CSS3
+
+values:
+    auto:
+    block:
+    table:
+    flex:
+    grid:
+    ruby:
+---
