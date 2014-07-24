@@ -15,7 +15,7 @@ specs:
 
 values:
     none:
-    <ident>:
+    <custom-ident>:
 
 prefixes:
     - Firefox 5–15 require the `-moz-` prefix.

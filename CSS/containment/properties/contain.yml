@@ -1,0 +1,12 @@
+﻿---
+name: contain
+
+introduced: CSS3
+
+specs:
+    - CSS3
+
+values:
+    none:
+    strict:
+---
