@@ -4,24 +4,24 @@ name: display
 introduced: flexbox-1
 
 support:
-	firefox: 22
-	safari: [6.1]
-	opera: 12.1
-	chrome: [21, 29]
-	ie: 11
+    firefox: 22
+    safari: [6.1]
+    opera: 12.1
+    chrome: [21, 29]
+    ie: 11
 
 specs:
-	- flexbox-1
+    - flexbox-1
 
 values:
-	flex:
-	inline-flex:
+    flex:
+    inline-flex:
 
 prefixes:
-	- Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix on the *value*.
+    - Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix on the *value*.
 
 notes:
-	- Firefox originally (from which version?) supported Flexible Box Layout with an alternative syntax and the `-moz-` prefix. This was specified with the `-moz-box` value.
-	- Chrome 1–20 and Safari until version 6 originally supported Flexible Box Layout with an alternative syntax and the `-webkit-` prefix. This was specified with the `-webkit-box` value.
-	- IE10 supports a different alternative syntax with the `-ms-` prefix. This is specified with the `-ms-flexbox` value.
+    - Firefox originally (from which version?) supported Flexible Box Layout with an alternative syntax and the `-moz-` prefix. This was specified with the `-moz-box` value.
+    - Chrome 1–20 and Safari until version 6 originally supported Flexible Box Layout with an alternative syntax and the `-webkit-` prefix. This was specified with the `-webkit-box` value.
+    - IE10 supports a different alternative syntax with the `-ms-` prefix. This is specified with the `-ms-flexbox` value.
 ---

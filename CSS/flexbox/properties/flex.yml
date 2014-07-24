@@ -4,26 +4,26 @@ name: flex
 introduced: flexbox-1
 
 support:
-	firefox: 22
-	safari: [6.1]
-	opera: 12.1
-	chrome: [21, 29]
-	ie: [10, 11]
+    firefox: 22
+    safari: [6.1]
+    opera: 12.1
+    chrome: [21, 29]
+    ie: [10, 11]
 
 specs:
-	- flexbox-1
+    - flexbox-1
 
 values:
-	none:
-	<flex-grow>:
-	<flex-shrink>:
-	<flex-basis>:
+    none:
+    <flex-grow>:
+    <flex-shrink>:
+    <flex-basis>:
 
 prefixes:
-	- Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix.
-	- IE 10 requires the `-ms-` prefix.
+    - Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix.
+    - IE 10 requires the `-ms-` prefix.
 
 notes:
-	- Older versions of Firefox, Chrome, and Safari support the `box-flex` property, with their relevant prefixes. However, it only supports a <number>, rather than the full range of values.
-	- In the [22 March 2012](http://www.w3.org/TR/2012/WD-css3-flexbox-20120322/#flex) version of the spec supported by IE 10, the `flex` property was not a shorthand. However, it can be used with the same values, with minor changes.
+    - Older versions of Firefox, Chrome, and Safari support the `box-flex` property, with their relevant prefixes. However, it only supports a <number>, rather than the full range of values.
+    - In the [22 March 2012](http://www.w3.org/TR/2012/WD-css3-flexbox-20120322/#flex) version of the spec supported by IE 10, the `flex` property was not a shorthand. However, it can be used with the same values, with minor changes.
 ---

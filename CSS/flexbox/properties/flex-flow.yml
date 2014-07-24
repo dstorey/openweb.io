@@ -4,19 +4,19 @@ name: flex-flow
 introduced: flexbox-1
 
 support:
-	safari: [6.1]
-	opera: 12.1
-	chrome: [21, 29]
-	ie: [10, 11]
+    safari: [6.1]
+    opera: 12.1
+    chrome: [21, 29]
+    ie: [10, 11]
 
 specs:
-	- flexbox-1
+    - flexbox-1
 
 values:
-	<flex-direction>:
-	<flex-wrap>:
+    <flex-direction>:
+    <flex-wrap>:
 
 prefixes:
-	- Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix.
-	- Internet Explorer 10 requires the `-ms-` prefix.
+    - Chrome 21–28, Opera 15, and Safari 6.1+ require the `-webkit-` prefix.
+    - Internet Explorer 10 requires the `-ms-` prefix.
 ---
