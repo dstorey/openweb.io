@@ -1,0 +1,17 @@
+﻿---
+name: line-box-contain
+
+introduced: CSS3
+
+specs:
+    - CSS3
+
+values:
+    none:
+    block:
+    inline:
+    font:
+    glyphs:
+    replaced:
+    inline-box:
+---
