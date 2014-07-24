@@ -1,0 +1,12 @@
+﻿---
+name: object-position
+
+introduced: CSS3
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    <position>:
+---

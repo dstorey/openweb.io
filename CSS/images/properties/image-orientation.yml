@@ -1,0 +1,15 @@
+﻿---
+name: image-orientation
+
+introduced: CSS3
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    <angle>:
+    from-image:
+    flip:
+        introduced: CSS4
+---

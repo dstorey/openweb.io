@@ -1,0 +1,14 @@
+﻿---
+name: image-resolution
+
+introduced: CSS3
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    <resolution>:
+    from-image:
+    snap:
+---

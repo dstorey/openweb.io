@@ -1,0 +1,16 @@
+﻿---
+name: object-fit
+
+introduced: CSS3
+
+specs:
+    - CSS4
+    - CSS3
+
+values:
+    none:
+    fill:
+    contain:
+    cover:
+    scale-down:
+---

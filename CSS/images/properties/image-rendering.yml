@@ -1,0 +1,13 @@
+﻿---
+name: image-rendering
+
+introduced: CSS4
+
+specs:
+    - CSS4
+
+values:
+    auto:
+    crisp-edges:
+    pixelated:
+---
