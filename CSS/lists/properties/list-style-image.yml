@@ -1,0 +1,24 @@
+﻿---
+name: list-style-image
+
+introduced: CSS1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 4
+
+specs:
+    - CSS3
+    - CSS2.1
+    - CSS1
+
+values:
+    none:
+    <image>:
+
+notes:
+    - The valid <image> values were extended in CSS Image Values Level 3. In CSS1–2.1, a <url> was the only valid way of specifiying an <image>. See the image values section for a complete list, and full support information. 
+---

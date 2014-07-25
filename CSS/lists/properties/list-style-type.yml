@@ -1,0 +1,82 @@
+﻿---
+name: list-style-type
+
+introduced: CSS1
+
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 4
+
+specs:
+    - CSS3
+    - CSS2.1
+    - CSS1
+
+values:
+    none:
+    disc:
+    circle:
+    square:
+    decimal:
+    lower-roman:
+    upper-roman:
+    lower-alpha:
+    upper-alpha:
+    decimal-leading-zero:
+        introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 7.2
+            chrome: 1
+            ie: 8
+    lower-greek:
+        introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 6
+            chrome: 1
+            ie: 8
+    lower-latin:
+        introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 6
+            chrome: 1
+            ie: 8
+    upper-latin:
+        introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 6
+            chrome: 1
+            ie: 8
+    armenian:
+        introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 6
+            chrome: 1
+            ie: 8
+    georgian:
+        introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 6
+            chrome: 1
+            ie: 8
+    <counter-styles>:
+        introduced: CSS3
+        support: none
+    <string>:
+        introduced: CSS3
+        support: none
+---

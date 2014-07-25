@@ -31,7 +31,7 @@ values:
     inline-grid:
         introduced: grid-1
     inline-list-item:
-        introduced: CSS3
+        introduced: lists-3
     <display-inside>:
         introduced: CSS3
     <display-outside>:

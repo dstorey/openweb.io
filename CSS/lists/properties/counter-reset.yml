@@ -1,0 +1,21 @@
+﻿---
+name: counter-reset
+
+introduced: CSS2.1
+
+support:
+    firefox: 1
+    safari: 3
+    opera: 4
+    chrome: 1
+    ie: 8
+
+specs:
+    - CSS3
+    - CSS2.1
+
+values:
+    none:
+    <custom-ident>:
+    <integer>:
+---

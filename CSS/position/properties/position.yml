@@ -25,4 +25,7 @@ values:
     page:
         introduced: CSS3
         support: none
+    marker:
+        introduced: lists-3
+        support: none
 ---

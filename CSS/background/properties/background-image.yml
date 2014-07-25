@@ -29,6 +29,6 @@ values:
             ie: 9
 
 notes:
-    - The valid <image> values were extended in CSS Image Values Level 3. See the image values section for a complete list, and full support information.
+    - The valid <image> values were extended in CSS Image Values Level 3. In CSS1–2.1, a <url> was the only valid way of specifiying an <image>. See the image values section for a complete list, and full support information.
     - Multiple <image>s are specified using a comma separated list, layered front to back, with the first image specified on top, and the last on bottom
 ---
