@@ -3,6 +3,13 @@ name: display
 
 introduced: CSS1
 
+support:
+    firefox: 1
+    safari: 1
+    opera: 3.5
+    chrome: 1
+    ie: 5
+
 specs:
     - CSS3
     - CSS2.1
@@ -12,32 +19,88 @@ values:
     inline:
     block:
     list-item:
+        support:
+            firefox: 1
+            safari: 1
+            opera: 4
+            chrome: 1
+            ie: 6
     inline-block:
         introduced: CSS2.1
+        support:
+            firefox: 3
+            safari: 1
+            opera: 7
+            chrome: 1
+            ie: 8
     table:
         introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 7
+            chrome: 1
+            ie: 8
     inline-table:
         introduced: CSS2.1
+        support:
+            firefox: 3
+            safari: 1
+            opera: 7
+            chrome: 1
+            ie: 8
     table-cell:
         introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 7
+            chrome: 1
+            ie: 8
     table-caption:
         introduced: CSS2.1
+        support:
+            firefox: 1
+            safari: 1
+            opera: 7
+            chrome: 1
+            ie: 8
     flex:
         introduced: flexbox-1
+        support:
+            firefox: 22
+            safari: [6.1]
+            opera: 12.1
+            chrome: [21, 29]
+            ie: 11
     inline-flex:
         introduced: flexbox-1
+        support:
+            firefox: 22
+            safari: [6.1]
+            opera: 12.1
+            chrome: [21, 29]
+            ie: 11
     grid:
         introduced: grid-1
+        support:
+            ie: [10]
     inline-grid:
         introduced: grid-1
+        support:
+            ie: [10]
     inline-list-item:
         introduced: lists-3
+        support: none
     <display-inside>:
         introduced: CSS3
+        support: none
     <display-outside>:
         introduced: CSS3
+        support: none
     <display-extras>:
         introduced: CSS3
+        support: none
 ---
 
 notes:
