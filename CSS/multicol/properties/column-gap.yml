@@ -21,7 +21,7 @@ values:
             opera: 11.1
             chrome: [1?]
             ie: 10
-    <column-count>:
+    <length>:
 
 prefixes:
     - Firefox requires the `-moz-` prefix on the property.
