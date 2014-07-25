@@ -3,11 +3,26 @@ name: image-rendering
 
 introduced: CSS4
 
+support:
+    firefox: 3.6
+    safari: ≤4 
+    opera: ≤9.5
+    chrome: ≤14
+
 specs:
     - CSS4
 
 values:
     auto:
     crisp-edges:
+        support:
+            firefox: [3.6]
+            safari: [6.1]
     pixelated:
+        support: none
+
+prefixes:
+    - Firefox 3.6 and above require the `-moz-` prefix on the *value* for `crisp-edges`.
+    - Safari 6.1 and above require the `-webkit-` prefix on the *value* for `crisp-edges`.
+     - Opera 11.6–21.1 supported `crisp-edges` with the `-o-` prefix on the *value*. Support was dropped when switching to Blink.   
 ---

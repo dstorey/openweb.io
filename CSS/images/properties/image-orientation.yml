@@ -3,6 +3,9 @@ name: image-orientation
 
 introduced: CSS3
 
+support:
+    firefox: 26
+
 specs:
     - CSS4
     - CSS3
