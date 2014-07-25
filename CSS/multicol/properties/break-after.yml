@@ -1,0 +1,25 @@
+﻿---
+name: break-after
+
+introduced: multicol-1
+
+support:
+    ie: 10
+
+specs:
+    - multicol-1
+
+values:
+    auto:
+    always:
+    avoid:
+    left:
+    right:
+    page:
+    column:
+    avoid-page:
+    avoid-column:
+
+prefixes:
+    - Opera previously supported this property from version 11.1 until dropping support when switching to Blink.
+---

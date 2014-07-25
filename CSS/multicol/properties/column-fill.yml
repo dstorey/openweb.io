@@ -1,0 +1,22 @@
+﻿---
+name: column-fill
+
+introduced: multicol-1
+
+support:
+    firefox: [13]
+    ie: 10
+
+specs:
+    - multicol-1
+
+values:
+    auto:
+    balance:
+    balance-all:
+        support: none
+
+prefixes:
+    - Firefox requires the `-moz-` prefix on the property.
+    - Opera previously supported this property from version 11.1 until dropping support when switching to Blink.
+---
