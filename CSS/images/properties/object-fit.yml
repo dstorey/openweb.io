@@ -3,6 +3,10 @@ name: object-fit
 
 introduced: CSS3
 
+support:
+    opera: 19
+    chrome: 32
+
 specs:
     - CSS4
     - CSS3
@@ -13,4 +17,7 @@ values:
     contain:
     cover:
     scale-down:
+
+prefixes:
+    - Opera 11–12.1 require the -o- prefix on the `object-fit` property. This was dropped when Opera lost support in Opera 15 with the switch to Blink.
 ---
