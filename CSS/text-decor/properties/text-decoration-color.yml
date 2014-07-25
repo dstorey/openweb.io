@@ -4,11 +4,14 @@ name: text-decoration-color
 introduced: CSS3
 
 support:
-    firefox: 6
+    firefox: [6]
 
 specs:
     - CSS3
 
 values:
     <color>:
+
+prefixes:
+    - Firefox 6 and above require the `-moz-` prefix.
 ---

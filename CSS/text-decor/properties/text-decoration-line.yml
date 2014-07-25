@@ -4,7 +4,7 @@ name: text-decoration-line
 introduced: CSS3
 
 support:
-    firefox: 6
+    firefox: [6]
 
 specs:
     - CSS3
@@ -16,4 +16,7 @@ values:
     line-through:
     blink:
         support: none
+
+prefixes:
+    - Firefox 6 and above require the `-moz-` prefix.
 ---

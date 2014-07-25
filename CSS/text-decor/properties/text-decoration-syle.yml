@@ -4,7 +4,7 @@ name: text-decoration-style
 introduced: CSS3
 
 support:
-    firefox: 6
+    firefox: [6]
 
 specs:
     - CSS3
@@ -15,4 +15,7 @@ values:
     dotted:
     dashed:
     wavy:
+
+prefixes:
+    - Firefox 6 and above require the `-moz-` prefix.
 ---
