@@ -4,11 +4,11 @@ name: mask-border-width
 introduced: masking-1
 
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	<length>:
-	<percentage>:
-	<number>:
-	auto:
+    <length>:
+    <percentage>:
+    <number>:
+    auto:
 ---

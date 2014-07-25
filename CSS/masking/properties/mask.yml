@@ -1,18 +1,41 @@
 ﻿---
 name: mask
 
-introduced: masking-1
+introduced: SVG1.1
+
+support:
+    safari: [4]
+    opera: [15]
+    chrome: [1?]
 
 specs:
-	- masking-1
+    - masking-1
+    - SVG1.1
 
 values:
-	<mask-image>:
-	<mask-mode>:
-	<mask-position>:
-	<mask-size>:
-	<mask-repeat>:
-	<mask-origin>:
-	<mask-clip>:
-	<mask-composite>:
+    <mask-image>:
+        support:
+            firefox: 3.5
+            safari: [4]
+            opera: [15]
+            chrome: [1?]
+    <mask-mode>:
+        support: none
+    <mask-position>:
+    <mask-size>:
+        safari: [6.1]
+        opera: [15]
+        chrome: [25]
+    <mask-repeat>:
+    <mask-origin>:
+    <mask-clip>:
+    <mask-composite>:
+        support: none
+
+prefixes:
+    - Safari, Opera, and Chrome require the `-webkit-` prefix.
+
+notes:
+    - Support here only refers to using `mask` with HTML. It has wider support when used with SVG.
+    - Firefox only supports the `none` and `url()` from <mask-image> and only in the `mask` shorthand, not the `mask-image` property. Furthermore, it only supports SVG as a source for the mask, and not regular raster images.
 ---

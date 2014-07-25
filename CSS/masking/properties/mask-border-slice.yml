@@ -4,10 +4,10 @@ name: mask-border-slice
 introduced: masking-1
 
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	<number>:
-	<percentage>:
-	fill:
+    <number>:
+    <percentage>:
+    fill:
 ---

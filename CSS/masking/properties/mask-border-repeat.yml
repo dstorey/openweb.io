@@ -4,11 +4,11 @@ name: mask-border-repeat
 introduced: masking-1
 
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	stretch:
-	repeat:
-	round:
-	space:
+    stretch:
+    repeat:
+    round:
+    space:
 ---

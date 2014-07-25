@@ -1,12 +1,23 @@
 ﻿---
 name: clip-rule
 
-introduced: masking-1
+introduced: SVG1.1
+
+support:
+    firefox: yes
+    safari: yes
+    chrome: yes
+    opera: yes
+    ie: 10
 
 specs:
-	- masking-1
+    - masking-1
+    - SVG1.1
 
 values:
-	nonzero:
-	evenodd:
+    nonzero:
+    evenodd:
+
+notes:
+    - `clip-rule` only applies to SVG elements
 ---

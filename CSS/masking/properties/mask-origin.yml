@@ -3,9 +3,25 @@ name: mask-origin
 
 introduced: masking-1
 
+support:
+    safari: [4]
+    opera: [15]
+    chrome: [1?]
+
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	<box>:
+    <box>:
+    margin-box:
+        support: none
+    stroke-box:
+        support: none
+    fill-box:
+        support: none
+    view-box:
+        support: none
+
+prefixes:
+    - Safari, Opera, and Chrome require the `-webkit-` prefix.
 ---

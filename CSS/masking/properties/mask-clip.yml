@@ -3,10 +3,27 @@ name: mask-clip
 
 introduced: masking-1
 
+support:
+    safari: [4]
+    opera: [15]
+    chrome: [1?]
+
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	<box>:
-	no-clip:
+    <box>:
+    margin-box:
+        support: none
+    stroke-box:
+        support: none
+    fill-box:
+        support: none
+    view-box:
+        support: none
+    no-clip:
+        support: none
+
+prefixes:
+    - Safari, Opera, and Chrome require the `-webkit-` prefix.
 ---

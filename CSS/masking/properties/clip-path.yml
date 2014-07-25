@@ -1,13 +1,36 @@
 ﻿---
 name: clip-path
 
-introduced: masking-1
+introduced: SVG1.1
+
+support:
+    firefox: 4
+    safari: [6.1]
+    opera: [15]
+    chrome: [24]
 
 specs:
-	- masking-1
+    - masking-1
+    - SVG1.1
 
 values:
-	<basic-shape>:
-	<url>:
-	none:
+    none:
+    <url>:
+    <basic-shape>:
+        introduced: masking-1
+        support:
+            safari: 7
+            opera: 21
+            chrome: 34
+    <geometry-box>:
+        introduced: masking-1
+        support: none
+
+prefixes:
+    - Safari, Opera, and Chrome require the `-webkit-` prefix. The unprefixed `clip-path` property only works on SVG.
+
+notes:
+    - Support information refers to `clip-path` used with HTML. Support for `clip-path` on SVG elements is more widely supported (need to build support tables or find a way to show both)
+    - Support for the differnt <basic-shape>s varies per shape. See the support table (TODO) for further details. `ellipse()` and `inset()` are not supported until Opera 21 and Chrome 34. Safari 7 only supports the `polygon()` shape.
+    - Firefox currently only supports clipping using SVG embedded in the HTML document. External SVG files are not supported.
 ---

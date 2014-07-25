@@ -3,10 +3,18 @@ name: mask-type
 
 introduced: masking-1
 
+support:
+    safari: 6.1
+    opera: 15
+    chrome: 24
+
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	luminance:
-	alpha:
+    luminance:
+    alpha:
+
+notes:
+    - This property only applies to SVG
 ---

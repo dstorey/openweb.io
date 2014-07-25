@@ -4,10 +4,10 @@ name: mask-mode
 introduced: masking-1
 
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	alpha:
-	luminance:
-	auto:
+    alpha:
+    luminance:
+    auto:
 ---

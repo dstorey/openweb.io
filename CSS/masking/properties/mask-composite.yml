@@ -4,11 +4,11 @@ name: mask-composite
 introduced: masking-1
 
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	add:
-	subtract:
-	intersect:
-	exclude:
+    add:
+    subtract:
+    intersect:
+    exclude:
 ---

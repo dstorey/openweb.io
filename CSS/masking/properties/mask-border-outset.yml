@@ -4,9 +4,9 @@ name: mask-border-outset
 introduced: masking-1
 
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	<length>:
-	<number>:
+    <length>:
+    <number>:
 ---

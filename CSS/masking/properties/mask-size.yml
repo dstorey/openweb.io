@@ -3,13 +3,21 @@ name: mask-size
 
 introduced: masking-1
 
+support:
+    safari: [4]
+    opera: [15]
+    chrome: [1?]
+
 specs:
-	- masking-1
+    - masking-1
 
 values:
-	<length>:
-	<percentage>:
-	auto:
-	cover:
-	contain:
+    <length>:
+    <percentage>:
+    auto:
+    cover:
+    contain:
+
+prefixes:
+    - Safari, Opera, and Chrome require the `-webkit-` prefix.
 ---
