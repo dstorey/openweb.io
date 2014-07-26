@@ -19,6 +19,9 @@ values:
     relative:
     absolute:
     fixed:
+    sticky:
+        introduced: CSS3
+        support: none
     center:
         introduced: CSS3
         support: none
