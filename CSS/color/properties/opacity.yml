@@ -5,10 +5,10 @@ introduced: CSS3
 
 support:
     firefox: 1
-    safari: 1
-    opera: 3.5
+    safari: 1.2
+    opera: 9
     chrome: 1
-    ie: 3
+    ie: 9
 
 specs:
     - CSS4
