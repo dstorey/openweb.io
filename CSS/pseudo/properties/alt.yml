@@ -1,0 +1,14 @@
+---
+name: alt
+
+introduced: pseudo-elements-4
+
+support:
+
+specs:
+    - pseudo-elements-4
+
+values:
+    none:
+    <string>:
+---
